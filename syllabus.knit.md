@@ -64,7 +64,7 @@ After successfully completing this course, each student will
 
 -   *Assignments*: Tentatively, the assignments and case studies will be done during class where you can ask questions.
 
--   *Attendance*: The class have totally 15 meetings. Each time you attend a meeting, your total grade will be increased by 1.5%.
+-   *Attendance*: Missing no more than 2 classes will guarantee you the 5% of the grades for attendance. 
 
 ## Grades Scale
 
