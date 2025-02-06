@@ -6,9 +6,9 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -21,3 +21,4 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 2/4       | Modeling with Linear Functions              |    [Note](notes/note3.pdf)   |    [Assignment 3](notes/note3.pdf)         |
 | 2/6       | Linear Trend with Excel              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d08c6b7b-e10d-43ea-a96c-b27c014ed5bc)   |    [Assignment 4](notes/assignment4.pdf)         |
 : {.striped .hover}
+
