@@ -6,9 +6,9 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -22,3 +22,4 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 2/6       | Excel: Modeling with Linear Functions              |    [Lecture Video]()   |    [Assignment 4](notes/assignment4.pdf)         |
 
 : {.striped .hover}
+
