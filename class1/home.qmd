@@ -20,4 +20,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | **Week 2** |  |  |  |
 | 2/4       | Modeling with Linear Functions              |    [Note](notes/note3.pdf)   |    [Assignment 3](notes/note3.pdf)         |
 | 2/6       | Excel: Modeling with Linear Functions              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d08c6b7b-e10d-43ea-a96c-b27c014ed5bc)   |    [Assignment 4](notes/assignment4.pdf)         |
+| **Week 3** |  |  |  |
+| 2/4       | Modeling with Linear Functions              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23)   |            |
 : {.striped .hover}

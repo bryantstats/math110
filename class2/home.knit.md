@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -23,4 +22,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | **Week 3** |  |  |  |
 | 2/4       | Modeling with Linear Functions              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23)   |            |
 : {.striped .hover}
+
 
