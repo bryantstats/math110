@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -27,4 +26,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 2/18       | Exponential Functions              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89c6783d-a9d0-4c1c-b7da-b288009a54d0), [Note](notes/note4.pdf)   |    
 | 2/20       | Simple vs. Compound Interest	              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48c0dfa5-52e8-4aac-9cb5-b28a016e7e25), [Note](notes/note5.pdf)   |    
 : {.striped .hover}
+
 
