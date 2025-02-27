@@ -28,5 +28,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 2/20       | Simple vs. Compound Interest	              |    [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48c0dfa5-52e8-4aac-9cb5-b28a016e7e25), [Note](notes/note5.pdf)   |    
 | **Week 5** |  |  |  |
 | 2/25 | Logarithms | [Note](notes/note6.pdf) | 
+| 2/27 | Logarithms | [Note](notes/note7.pdf) | 
 : {.striped .hover}
 
