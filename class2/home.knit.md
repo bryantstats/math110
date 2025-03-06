@@ -6,9 +6,9 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -33,4 +33,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 2/25 | Exponential Model | [Note](notes/note8.pdf) | 
 | 2/27 | Exponential Model | [Lecture Video]() | 
 : {.striped .hover}
+
 
