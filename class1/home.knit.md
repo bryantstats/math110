@@ -34,7 +34,7 @@ editor: visual
 | 3/6 | Exponential Model | [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30b15878-dd8e-4ad1-adba-b298016d7d8b) | 
 | **Week 7** | SPRING BREAK |  |  |
 | **Week 8** |  |  |  |
-| 3/18 | Review for Exam 1 | [Study Guide](exam1_study_guide.html), [Practice 2](exam1_study_guide2.html) | 
+| 3/18 | Review for Exam 1 | [Study Guide](exam1_study_guide.html), [Practice 2](exam1_study_guide2.html), [Practice 2's Solution](exam1_study_guide2_solution.html) | 
 | 3/20 | Exam 1 |  | 
 : {.striped .hover}
 

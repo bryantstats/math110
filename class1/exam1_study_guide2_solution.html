@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH 110D. Mathematical Analysis</title>
+<title>Exam 1 - Practice 2’s Solution</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,31 +23,67 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="home_files/libs/clipboard/clipboard.min.js"></script>
-<script src="home_files/libs/quarto-html/quarto.js"></script>
-<script src="home_files/libs/quarto-html/popper.min.js"></script>
-<script src="home_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="home_files/libs/quarto-html/anchor.min.js"></script>
-<link href="home_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="home_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="home_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="home_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="home_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="exam1_study_guide2_solution_files/libs/clipboard/clipboard.min.js"></script>
+<script src="exam1_study_guide2_solution_files/libs/quarto-html/quarto.js"></script>
+<script src="exam1_study_guide2_solution_files/libs/quarto-html/popper.min.js"></script>
+<script src="exam1_study_guide2_solution_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="exam1_study_guide2_solution_files/libs/quarto-html/anchor.min.js"></script>
+<link href="exam1_study_guide2_solution_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="exam1_study_guide2_solution_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="exam1_study_guide2_solution_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="exam1_study_guide2_solution_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="exam1_study_guide2_solution_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-  
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#part-1-manual-calculation" id="toc-part-1-manual-calculation" class="nav-link active" data-scroll-target="#part-1-manual-calculation">Part 1: Manual calculation</a></li>
+  <li><a href="#part-2-excel-calculation" id="toc-part-2-excel-calculation" class="nav-link" data-scroll-target="#part-2-excel-calculation">Part 2: Excel Calculation</a></li>
+  </ul>
+</nav>
 </div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MATH 110D. Mathematical Analysis</h1>
+<h1 class="title">Exam 1 - Practice 2’s Solution</h1>
 </div>
 
 
@@ -64,128 +100,268 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../syllabus.html">Syllabus</a></p>
-<table class="table-striped table-hover caption-top table">
+<p>The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation.</p>
+<section id="part-1-manual-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-manual-calculation">Part 1: Manual calculation</h2>
+<section id="problem-1." class="level4">
+<h4 class="anchored" data-anchor-id="problem-1.">Problem 1.</h4>
+<p>Given a simulated dataset below. The tuition is in thousands.</p>
+<table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Date</th>
-<th>Section/Topic</th>
-<th>Notes</th>
+<th>Year (x)</th>
+<th>Tuition (y)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Week 1</strong></td>
-<td></td>
-<td></td>
+<td>2020</td>
+<td>10</td>
 </tr>
 <tr class="even">
-<td>1/28</td>
-<td>Basic Functions: Linear Functions</td>
-<td><a href="notes/note1.pdf">Note</a></td>
+<td>2021</td>
+<td>12.5</td>
 </tr>
 <tr class="odd">
-<td>1/30</td>
-<td>Application of Linear Functions</td>
-<td><a href="notes/note2.pdf">Note</a></td>
+<td>2022</td>
+<td>15</td>
 </tr>
 <tr class="even">
-<td><strong>Week 3</strong></td>
-<td></td>
-<td></td>
+<td>2023</td>
+<td>17.5</td>
 </tr>
 <tr class="odd">
-<td>2/4</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="notes/note3.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>2/6</td>
-<td>Excel: Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d08c6b7b-e10d-43ea-a96c-b27c014ed5bc">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 3</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2/11</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td>2/13</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23">Lecture Video</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 4</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2/18</td>
-<td>Exponential Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89c6783d-a9d0-4c1c-b7da-b288009a54d0">Lecture Video</a>, <a href="notes/note4.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>2/20</td>
-<td>Simple vs.&nbsp;Compound Interest</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48c0dfa5-52e8-4aac-9cb5-b28a016e7e25">Lecture Video</a>, <a href="notes/note5.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 5</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2/25</td>
-<td>Logarithms</td>
-<td><a href="notes/note6.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td>2/27</td>
-<td>Logarithms</td>
-<td><a href="notes/note7.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 6</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3/4</td>
-<td>Exponential Model</td>
-<td><a href="notes/note8.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>3/6</td>
-<td>Exponential Model</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30b15878-dd8e-4ad1-adba-b298016d7d8b">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 7</strong></td>
-<td>SPRING BREAK</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Week 8</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3/18</td>
-<td>Review for Exam 1</td>
-<td><a href="https://bryantstats.github.io/math110/class1/exam1_study_guide.html">Study Guide</a>, <a href="https://bryantstats.github.io/math110/class1/exam1_study_guide2.html">Practice 2</a>, <a href="https://bryantstats.github.io/math110/class1/exam1_study_guide2_solution.html">Practice 2’s Solution</a></td>
-</tr>
-<tr class="even">
-<td>3/20</td>
-<td>Exam 1</td>
-<td></td>
+<td>2024</td>
+<td>20</td>
 </tr>
 </tbody>
 </table>
+<ol type="1">
+<li><p>Calculate the differences of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.</p></li>
+<li><p>Write the equation of the model.</p></li>
+<li><p>Use the model to predict the tuition in 2030.</p></li>
+<li><p>What year the tuition will be more than 100k?</p></li>
+</ol>
+</section>
+<section id="solution" class="level4">
+<h4 class="anchored" data-anchor-id="solution">Solution</h4>
+<ol type="1">
+<li>We have the following table. For a tuition difference, subtract the tuition of a year to the tuition of the previous year (for example: 12.5-10 = 2.5). For a tuition ratio, divide the tuition of a year to the tuition of the previous year (for example: 12.5/10 = 1.25)</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year (since 2020)</th>
+<th>Tuition</th>
+<th>Tuition Difference</th>
+<th>Tuition Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>12.5</td>
+<td>2.5</td>
+<td>1.25</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>15</td>
+<td>2.5</td>
+<td>1.2</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>17.5</td>
+<td>2.5</td>
+<td>1.167</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>20</td>
+<td>2.5</td>
+<td>1.143</td>
+</tr>
+</tbody>
+</table>
+<p>We observe that the tuition difference is a constant, hence the data is linear.</p>
+<ol start="2" type="1">
+<li>Let the equation be</li>
+</ol>
+<p><span class="math display">\[y = mx +b.\]</span> Where <span class="math inline">\(y\)</span> and <span class="math inline">\(x\)</span> are the tuition and year, respectively.</p>
+<p>We need to find the constant <span class="math inline">\(m\)</span> and <span class="math inline">\(b\)</span>. The slope <span class="math inline">\(m\)</span> is always the different constant, so <span class="math inline">\(m = 2.5\)</span>.</p>
+<p>To find <span class="math inline">\(b\)</span>, plug in a data point, say, <span class="math inline">\(x = 0\)</span> and <span class="math inline">\(y = 10\)</span>, we have:</p>
+<p><span class="math display">\[10 = b\]</span> Thus, <span class="math display">\[b = 10.\]</span></p>
+<p>Therefore, the equation is:</p>
+<p><span class="math display">\[y = 2.5*x + 10.\]</span></p>
+<ol start="3" type="1">
+<li>To predict the tuition in 2030, plug <span class="math inline">\(x = 2030-2020 = 10\)</span> (since 2030 is 10 years since 2020) into the equation in 2. to find <span class="math inline">\(y\)</span>.</li>
+</ol>
+<p><span class="math display">\[y =  2.5*10 + 10 = 35.\]</span></p>
+<p>The model predicts the tuition in 2030 to be 35k.</p>
+<ol start="4" type="1">
+<li>To find the year the tuition passes 100k, plug <span class="math inline">\(y = 100\)</span> into the equation to find <span class="math inline">\(x\)</span></li>
+</ol>
+<p>We have <span class="math display">\[100 = 2.5*x + 10\]</span></p>
+<p>Thus, <span class="math display">\[x =  \frac{100-10}{2.5} = 36\]</span></p>
+<p>Therefore the tuition will pass 100k in the year of 2020 + 36 = 2056.</p>
+</section>
+<section id="problem-2." class="level4">
+<h4 class="anchored" data-anchor-id="problem-2.">Problem 2.</h4>
+<p>Given a simulated dataset below. The tuition is in thousands.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year (since 2010)</th>
+<th>Tuition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>11.5</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>13.225</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>15.20875</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>17.4900625</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li><p>Calculate the differences of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.</p></li>
+<li><p>Write the equation of the model.</p></li>
+<li><p>Use the model to predict the tuition in 2030.</p></li>
+<li><p>What year the tuition will be more than 100k?</p></li>
+</ol>
+</section>
+<section id="solution-1" class="level4">
+<h4 class="anchored" data-anchor-id="solution-1">Solution</h4>
+<ol type="1">
+<li>We have the following table.</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Tuition</th>
+<th>Tuition Difference</th>
+<th>Tuition Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>11.5</td>
+<td>1.5</td>
+<td>1.15</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>13.225</td>
+<td>1.725</td>
+<td>1.15</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>15.20875</td>
+<td>1.98375</td>
+<td>1.15</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>17.4900625</td>
+<td>2.281313</td>
+<td>1.15</td>
+</tr>
+</tbody>
+</table>
+<p>We observe that the tuition ratio is a constant, hence the data is exponential.</p>
+<ol start="2" type="1">
+<li>Let the equation be</li>
+</ol>
+<p><span class="math display">\[y = a.b^x\]</span> Where <span class="math inline">\(y\)</span> and <span class="math inline">\(x\)</span> are the tuition and year, respectively.</p>
+<p>We need to find the constant <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>. The base <span class="math inline">\(m\)</span> is always the different ratio, so <span class="math inline">\(b = 1.15\)</span>.</p>
+<p>To find <span class="math inline">\(a\)</span>, plug in a data point, say, <span class="math inline">\(x = 0\)</span> and <span class="math inline">\(y = 10\)</span>, we have:</p>
+<p><span class="math display">\[10 = a*1.15^{0}\]</span> Thus, <span class="math display">\[a = 10\]</span></p>
+<p>Therefore, the equation is:</p>
+<p><span class="math display">\[y = 10*1.15^x\]</span></p>
+<ol start="3" type="1">
+<li>To predict the tuition in 2030, plug <span class="math inline">\(x = 2030-2010 = 20\)</span> into the equation in 2. to find <span class="math inline">\(y\)</span>.</li>
+</ol>
+<p><span class="math display">\[y =  10*1.15^{20} = 163.6654\]</span></p>
+<p>The model predicts the tuition in 2030 to be 163.6654</p>
+<ol start="4" type="1">
+<li>To find the year the tuition passes 100k, plug <span class="math inline">\(y = 100\)</span> into the equation to find <span class="math inline">\(x\)</span></li>
+</ol>
+<p>We have <span class="math display">\[100 = 10*1.15^x\]</span></p>
+<p>Thus, <span class="math inline">\(1.15^ x =  100/10 = 10\)</span>.</p>
+<p><span class="math display">\[x = \log_{1.15}10 = 16.47505 \approx 17\]</span></p>
+<p>Therefore the tuition will pass 100k in 17 years since 2010, which is 2027.</p>
+</section>
+</section>
+<section id="part-2-excel-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-excel-calculation">Part 2: Excel Calculation</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Year</th>
+<th style="text-align: center;">Population (000s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2012</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2013</td>
+<td style="text-align: center;">1.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2014</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2015</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2016</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li>Model the dataset using exponential model and calculate the MAPE of the model.</li>
+<li>Model the dataset using linear model and calculate the MAPE of the model.</li>
+<li>Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017.</li>
+</ol>
+<p><a href="">Solution</a></p>
+</section>
 
 </main>
 <!-- /main column -->
