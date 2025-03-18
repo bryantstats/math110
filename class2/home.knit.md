@@ -6,9 +6,9 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -37,4 +37,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 3/18 | Review for Exam 1 | [Study Guide](https://bryantstats.github.io/math110/class1/exam1_study_guide.html), [Practice 2](https://bryantstats.github.io/math110/class1/exam1_study_guide2.html)  | 
 | 3/20 | Exam 1 |  | 
 : {.striped .hover}
+
 
