@@ -160,8 +160,9 @@ Therefore the tuition will pass 100k in 17 years since 2010, which is 2027.
 2. Model the dataset using linear model and calculate the MAPE of the model. 
 3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
 
-[Solution]()
+[Video Solution](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88797aa3-2092-4a85-8151-b2a4015eb9d3)
 
+[Excel Solution](practice2_excel.xlsx)
 
 
 
