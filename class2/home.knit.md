@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [Syllabus](../syllabus.html)
 
@@ -40,4 +39,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 3/25 | Derivatives - Basic Rules | [Note](notes/note9.pdf) | 
 | 3/27 |  |  | 
 : {.striped .hover}
+
 

@@ -8,7 +8,7 @@ editor: visual
 
 The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. 
 
-## Part 1: Manual calculation
+# Part 1: Manual Calculation
 
 #### Problem 1. 
 
@@ -52,10 +52,10 @@ Given a simulated dataset below. The tuition is in thousands.
 3. Use the model to predict the tuition in 2030.
 
 4. What year the tuition will be more than 1 million (1000k)?
+\pagebreak
 
 
-
-## Part 2: Excel Calculation
+# Part 2: Excel Calculation
 
 | Year (since 2000) | Population (000s) |
 |:----:|:-----------------:|
