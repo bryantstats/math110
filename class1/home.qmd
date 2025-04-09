@@ -42,4 +42,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | **Week 10** |  |  |  |
 | 4/1 | Derivatives | [Note](notes/note11.pdf) | 
 | 4/3 | Derivatives  | [Note](notes/note12.pdf) | 
+| **Week 10** |  |  |  |
+| 4/8 | Derivatives | [Note](notes/note13.pdf) | 
+| 4/10 | Derivatives  | [Note](notes/note14.pdf) | 
 : {.striped .hover}
