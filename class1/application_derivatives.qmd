@@ -1,0 +1,43 @@
+---
+title: "Some Applications of Derivatives"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+We can use the derivatives to find the minimum and maximum of functions.  Suppose we want to find the minimum and maximum of a function $f(x)$. In these examples, the procedure to do is as follows. 
+
+- Step 1: Find and simplify $f'(x)$
+
+- Step 2: Solve $f'(x) = 0$. Suppose that the solution is $x=c$. 
+
+- Step 3: Calculate $f''(x)$ and evaluate $f''(c)$.
+
+  - If $f''(c) < 0$, $f(x)$ is maximized at  $x=c$.
+  - If $f''(c) >0$, $f(x)$ is minimized at $x = c.$
+
+## 1. Minimizing the average cost. 
+
+#### Example: 
+
+#### Assignment 
+
+## 2. Maximizing the revenue
+
+#### Example
+
+#### Assignment 
+
+## 3. Maximizing the profit
+
+#### Example
+
+#### Assignment
+
+
+
+
+
+
+
