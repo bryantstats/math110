@@ -202,7 +202,7 @@ $$C(q) = 0.125q^2 +4q +200.$$
 
 How many units should the company produce to maximize the profit?
 
-2. A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
+2. A company determines that when $q$ thousands units of a product are produced each month, they will be sold at the price of 
 $$p = 37 - 2q$$ 
 dollars per unit. The total cost of producing the $q$ units will be 
 $$C(q) = 3q^2 +5q + 75.$$
