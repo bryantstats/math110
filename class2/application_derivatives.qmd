@@ -210,6 +210,12 @@ $$C(q) = 3q^2 +5q + 75.$$
 How many units should the company produce to maximize the profit?
 
 
+3. (Optional - Extra Credits). A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
+$$p = 180 - 2q$$ 
+dollars per unit. The total cost of producing the $q$ units will be 
+$$C(q) = q^3 +5q + 162.$$
+
+How many units should the company produce to maximize the profit?
 
 
 
