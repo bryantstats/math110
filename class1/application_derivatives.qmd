@@ -6,22 +6,89 @@ format:
 editor: visual
 ---
 
-We can use the derivatives to find the minimum and maximum of functions.  Suppose we want to find the minimum and maximum of a function $f(x)$. In these examples, the procedure to do is as follows. 
+We can use the derivatives to find the minimum and maximum of functions.  Suppose we want to find the minimum and maximum of a function $f(x)$. In these examples, we will be given that $f(x)$ will be maximized or minimized at the soltion of $f'(x) = 0$.  Therefore, the procedure to do is as follows. 
 
 - Step 1: Find and simplify $f'(x)$
 
 - Step 2: Solve $f'(x) = 0$. Suppose that the solution is $x=c$. 
 
-- Step 3: Calculate $f''(x)$ and evaluate $f''(c)$.
-
-  - If $f''(c) < 0$, $f(x)$ is maximized at  $x=c$.
-  - If $f''(c) >0$, $f(x)$ is minimized at $x = c.$
-
 ## 1. Minimizing the average cost. 
 
-#### Example: 
+#### Example
 
-#### Assignment 
+The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(x) = 128,000 +30x + x^3,
+$$
+where $x$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+#### Solution
+
+Since it cost $C(x)$ to produce $x$ items (MP3 players), the average cost for each item is
+
+$$
+f(x) = \frac{C(x)}{x}.
+$$
+We need to find $x$ to minimize $f(x)$. Notice that 
+
+$$
+0 < x \leq 100.
+$$
+We will follow the three step procedure above, 
+
+##### Step 1: Find and simplify $f'(x)$
+
+$$
+f(x) = \frac{128,000 + 30x +x^3}{x}
+$$
+Use the quotient rule, we have
+
+$$
+f(x) = \frac{(128,000 + 30x +x^3)'\cdot x - (x)'\cdot(128,000 + 30x +x^3) }{x^2}
+$$
+
+$$
+f'(x) = \frac{(30 + 3x^2) \cdot (x) - (1) \cdot (128{,}000 + 30x + x^3)}{x^2}
+$$
+
+Simplifying:
+
+$$
+f'(x) = \frac{30x + 3x^3 - 128{,}000 - 30x - x^3}{x^2}
+= \frac{2x^3 - 128{,}000}{x^2}
+$$
+
+##### Step 2: Solve $f'(x) = 0$. 
+
+$$
+f'(x) = 0
+\Rightarrow \frac{2x^3 - 128{,}000}{x^2} = 0
+$$
+
+Multiply both sides by  $x^2$ to eliminate the denominator:
+
+$$
+2x^3 - 128{,}000 = 0
+$$
+
+Solve for $x$:
+
+$$
+2x^3 = 128{,}000 
+\Rightarrow x^3 = 64{,}000 
+\Rightarrow x = \sqrt[3]{64{,}000}
+\Rightarrow x = 40
+$$
+
+\textbf{Therefore, the solution is:}
+$$
+x = 40
+$$
+
+Therefore, the company should produce 40 items to minimized the average cost. 
+
+#### Assignment
 
 ## 2. Maximizing the revenue
 

@@ -101,20 +101,68 @@ window.Quarto = {
 </header>
 
 
-<p>We can use the derivatives to find the minimum and maximum of functions. Suppose we want to find the minimum and maximum of a function <span class="math inline">\(f(x)\)</span>. In these examples, the procedure to do is as follows.</p>
+<p>We can use the derivatives to find the minimum and maximum of functions. Suppose we want to find the minimum and maximum of a function <span class="math inline">\(f(x)\)</span>. In these examples, we will be given that <span class="math inline">\(f(x)\)</span> will be maximized or minimized at the soltion of <span class="math inline">\(f'(x) = 0\)</span>. Therefore, the procedure to do is as follows.</p>
 <ul>
 <li><p>Step 1: Find and simplify <span class="math inline">\(f'(x)\)</span></p></li>
 <li><p>Step 2: Solve <span class="math inline">\(f'(x) = 0\)</span>. Suppose that the solution is <span class="math inline">\(x=c\)</span>.</p></li>
-<li><p>Step 3: Calculate <span class="math inline">\(f''(x)\)</span> and evaluate <span class="math inline">\(f''(c)\)</span>.</p>
-<ul>
-<li>If <span class="math inline">\(f''(c) &lt; 0\)</span>, <span class="math inline">\(f(x)\)</span> is maximized at <span class="math inline">\(x=c\)</span>.</li>
-<li>If <span class="math inline">\(f''(c) &gt;0\)</span>, <span class="math inline">\(f(x)\)</span> is minimized at <span class="math inline">\(x = c.\)</span></li>
-</ul></li>
 </ul>
 <section id="minimizing-the-average-cost." class="level2">
 <h2 class="anchored" data-anchor-id="minimizing-the-average-cost.">1. Minimizing the average cost.</h2>
 <section id="example" class="level4">
-<h4 class="anchored" data-anchor-id="example">Example:</h4>
+<h4 class="anchored" data-anchor-id="example">Example</h4>
+<p>The per-day cost function of the manufacture of portable MP3 players is given by</p>
+<p><span class="math display">\[
+C(x) = 128,000 +30x + x^3,
+\]</span> where <span class="math inline">\(x\)</span> is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day. How many MP3 players should be manufactured in order to minimize the average cost?</p>
+</section>
+<section id="solution" class="level4">
+<h4 class="anchored" data-anchor-id="solution">Solution</h4>
+<p>Since it cost <span class="math inline">\(C(x)\)</span> to produce <span class="math inline">\(x\)</span> items (MP3 players), the average cost for each item is</p>
+<p><span class="math display">\[
+f(x) = \frac{C(x)}{x}.
+\]</span> We need to find <span class="math inline">\(x\)</span> to minimize <span class="math inline">\(f(x)\)</span>. Notice that</p>
+<p><span class="math display">\[
+0 &lt; x \leq 100.
+\]</span> We will follow the three step procedure above,</p>
+<section id="step-1-find-and-simplify-fx" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-find-and-simplify-fx">Step 1: Find and simplify <span class="math inline">\(f'(x)\)</span></h5>
+<p><span class="math display">\[
+f(x) = \frac{128,000 + 30x +x^3}{x}
+\]</span> Use the quotient rule, we have</p>
+<p><span class="math display">\[
+f(x) = \frac{(128,000 + 30x +x^3)'\cdot x - (x)'\cdot(128,000 + 30x +x^3) }{x^2}
+\]</span></p>
+<p><span class="math display">\[
+f'(x) = \frac{(30 + 3x^2) \cdot (x) - (1) \cdot (128{,}000 + 30x + x^3)}{x^2}
+\]</span></p>
+<p>Simplifying:</p>
+<p><span class="math display">\[
+f'(x) = \frac{30x + 3x^3 - 128{,}000 - 30x - x^3}{x^2}
+= \frac{2x^3 - 128{,}000}{x^2}
+\]</span></p>
+</section>
+<section id="step-2-solve-fx-0." class="level5">
+<h5 class="anchored" data-anchor-id="step-2-solve-fx-0.">Step 2: Solve <span class="math inline">\(f'(x) = 0\)</span>.</h5>
+<p><span class="math display">\[
+f'(x) = 0
+\Rightarrow \frac{2x^3 - 128{,}000}{x^2} = 0
+\]</span></p>
+<p>Multiply both sides by <span class="math inline">\(x^2\)</span> to eliminate the denominator:</p>
+<p><span class="math display">\[
+2x^3 - 128{,}000 = 0
+\]</span></p>
+<p>Solve for <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[
+2x^3 = 128{,}000
+\Rightarrow x^3 = 64{,}000
+\Rightarrow x = \sqrt[3]{64{,}000}
+\Rightarrow x = 40
+\]</span></p>
+<p> <span class="math display">\[
+x = 40
+\]</span></p>
+<p>Therefore, the company should produce 40 items to minimized the average cost.</p>
+</section>
 </section>
 <section id="assignment" class="level4">
 <h4 class="anchored" data-anchor-id="assignment">Assignment</h4>
