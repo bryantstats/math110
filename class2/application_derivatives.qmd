@@ -140,7 +140,7 @@ $$
 
 Therefore, the company should sets the price to be 30 dollars to maximize the annual revenue. 
 
-#### Assignment 17
+#### Assignment 18
 
 1. A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 300,000 - 10p^2$$ items per year.  The condition for $p$ is that $0 \leq p \leq 150$. Find the price, $p$, that maximizes the annual revenue. 
 
@@ -193,7 +193,7 @@ $$
 
 Therefore, the company should sell 6 items to maximize the profit. 
 
-#### Assignment 18
+#### Assignment 19
 
 1. A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
 $$p = 49 - q$$ 
