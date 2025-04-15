@@ -1,7 +1,7 @@
 ---
 title: "Some Applications of Derivatives"
 format: 
-  pdf:
+  html:
     toc: true
 editor: visual
 ---
@@ -186,7 +186,7 @@ $$
 \begin{align*}
 & -3.2q+19.2 = 0 \\
 \\[-1em]
- \implies & q = \frac{19.2}{-3.2} \\
+ \implies & q = \frac{19.2}{3.2} \\
  \\[-1em]
  \implies & q = 6
 \end{align*}
