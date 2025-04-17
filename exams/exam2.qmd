@@ -75,7 +75,7 @@ $$\frac{x^2+x+1}{x^2-x-1}$$
 (Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
 
 $$
-C(q) = 6000 +50q + 3q^3,
+C(q) = 39304 +50q + 4q^3,
 $$
 where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
 
@@ -99,7 +99,7 @@ where $q$ is the number of MP3 players manufactured per day. Assume that the com
 
 #### Problem 7
 
-(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 27000 - 2p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 595820 - 5p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 40$. Find the price, $p$, that maximizes the annual revenue. 
 
 \
 \
@@ -120,9 +120,9 @@ where $q$ is the number of MP3 players manufactured per day. Assume that the com
 
 #### Problem 8
 
-(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-3q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 20q + 100.$$
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 500-4q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 140q + 80.$$
 
-How many units should the company produce to maximize the profit?
+How many units should the company produce to maximize its profit?
 \
 \
 \

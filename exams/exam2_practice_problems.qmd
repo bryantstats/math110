@@ -75,9 +75,9 @@ $$\frac{x^3+1}{x^3-1}$$
 (Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
 
 $$
-C(x) = 31250 +30x + x^3,
+C(q) = 31250 +30q + q^3,
 $$
-where $x$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
 
 
 \
