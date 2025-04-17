@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH 110D. Mathematical Analysis</title>
+<title>Exam 2 - Practice 1- Solution</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,31 +23,58 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="home_files/libs/clipboard/clipboard.min.js"></script>
-<script src="home_files/libs/quarto-html/quarto.js"></script>
-<script src="home_files/libs/quarto-html/popper.min.js"></script>
-<script src="home_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="home_files/libs/quarto-html/anchor.min.js"></script>
-<link href="home_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="home_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="home_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="home_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="home_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="exam2_practice_problems_solution_files/libs/clipboard/clipboard.min.js"></script>
+<script src="exam2_practice_problems_solution_files/libs/quarto-html/quarto.js"></script>
+<script src="exam2_practice_problems_solution_files/libs/quarto-html/popper.min.js"></script>
+<script src="exam2_practice_problems_solution_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="exam2_practice_problems_solution_files/libs/quarto-html/anchor.min.js"></script>
+<link href="exam2_practice_problems_solution_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="exam2_practice_problems_solution_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="exam2_practice_problems_solution_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="exam2_practice_problems_solution_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="exam2_practice_problems_solution_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-  
-</div>
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MATH 110D. Mathematical Analysis</h1>
+<h1 class="title">Exam 2 - Practice 1- Solution</h1>
 </div>
 
 
@@ -64,203 +91,219 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../syllabus.html">Syllabus</a></p>
-<table class="table-striped table-hover caption-top table">
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Section/Topic</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Week 1</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1/28</td>
-<td>Basic Functions: Linear Functions</td>
-<td><a href="notes/note1.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td>1/30</td>
-<td>Application of Linear Functions</td>
-<td><a href="notes/note2.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 3</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2/4</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="notes/note3.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>2/6</td>
-<td>Excel: Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d08c6b7b-e10d-43ea-a96c-b27c014ed5bc">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 3</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2/11</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td>2/13</td>
-<td>Modeling with Linear Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=886be002-5e77-4643-b811-b281015b4d23">Lecture Video</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 4</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>2/18</td>
-<td>Exponential Functions</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89c6783d-a9d0-4c1c-b7da-b288009a54d0">Lecture Video</a>, <a href="notes/note4.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>2/20</td>
-<td>Simple vs.&nbsp;Compound Interest</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48c0dfa5-52e8-4aac-9cb5-b28a016e7e25">Lecture Video</a>, <a href="notes/note5.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 5</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2/25</td>
-<td>Logarithms</td>
-<td><a href="notes/note6.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td>2/27</td>
-<td>Logarithms</td>
-<td><a href="notes/note7.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 6</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3/4</td>
-<td>Exponential Model</td>
-<td><a href="notes/note8.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>3/6</td>
-<td>Exponential Model</td>
-<td><a href="https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30b15878-dd8e-4ad1-adba-b298016d7d8b">Lecture Video</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 7</strong></td>
-<td>SPRING BREAK</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Week 8</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3/18</td>
-<td>Review for Exam 1</td>
-<td><a href="https://bryantstats.github.io/math110/class1/exam1_study_guide.html">Study Guide</a>, <a href="https://bryantstats.github.io/math110/class1/exam1_study_guide2.html">Practice 2</a>, <a href="https://bryantstats.github.io/math110/class1/exam1_study_guide2_solution.html">Practice 2’s Solution</a></td>
-</tr>
-<tr class="even">
-<td>3/20</td>
-<td>Exam 1</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 9</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>3/25</td>
-<td>Derivatives - Basic Rules</td>
-<td><a href="notes/note9.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td>3/27</td>
-<td>Derivatives</td>
-<td><a href="notes/note10.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 10</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>4/1</td>
-<td>Derivatives</td>
-<td><a href="notes/note11.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td>4/3</td>
-<td>Derivatives</td>
-<td><a href="notes/note12.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 11</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>4/8</td>
-<td>Derivatives</td>
-<td><a href="notes/note13.pdf">Note</a></td>
-</tr>
-<tr class="odd">
-<td>4/10</td>
-<td>Application of Derivatives</td>
-<td><a href="notes/note14.pdf">Note</a></td>
-</tr>
-<tr class="even">
-<td><strong>Week 12</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>4/15</td>
-<td>Application of Derivatives</td>
-<td><a href="application_derivatives.html">Note</a></td>
-</tr>
-<tr class="even">
-<td>4/17</td>
-<td>Exam 2’s Review</td>
-<td><a href="https://bryantstats.github.io/math110/exams/exam2_practice_problems.html">Practice 1</a>, <a href="https://bryantstats.github.io/math110/exams/exam2_practice_problems2.html">Practice 2</a>, <br> <a href="">Solution 1</a>, <a href="">Solution 2</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Week 13</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>4/22</td>
-<td>Exam 2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>4/24</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<section id="problem-1." class="level4">
+<h4 class="anchored" data-anchor-id="problem-1.">Problem 1.</h4>
+<p><strong>Find f’(x)</strong> (Power Rule)</p>
+<p><span class="math display">\[f(x) = x^3 - 3x^2 + 3x + 3\sqrt{x} + 2\sqrt[3]{x} + \frac{2}{x} - \frac{3}{x^4} + 2025\]</span></p>
+</section>
+<section id="solution" class="level4">
+<h4 class="anchored" data-anchor-id="solution">Solution</h4>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+</section>
+<section id="problem-2" class="level4">
+<h4 class="anchored" data-anchor-id="problem-2">Problem 2</h4>
+<p><strong>Find f’(x)</strong> (Log Rule)</p>
+<p><span class="math display">\[f(x) = 3\log_2 x + 4\ln x + 5 \log_{7} x + 2020\]</span></p>
+</section>
+<section id="solution-1" class="level4">
+<h4 class="anchored" data-anchor-id="solution-1">Solution</h4>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+</section>
+<section id="problem-3" class="level4">
+<h4 class="anchored" data-anchor-id="problem-3">Problem 3</h4>
+<p><strong>Find f’(x)</strong> (Exponential Rule)</p>
+<p><span class="math display">\[f(x) = 4e^x + 3^x + \frac{4^x}{3} + 1\]</span></p>
+</section>
+<section id="solution-2" class="level4">
+<h4 class="anchored" data-anchor-id="solution-2">Solution</h4>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+</section>
+<section id="problem-4" class="level4">
+<h4 class="anchored" data-anchor-id="problem-4">Problem 4</h4>
+<p><strong>Find f’(x)</strong> (Product Rule)</p>
+<p><span class="math display">\[f(x) = (2^x + x^2)(\ln x + 3e^x)\]</span></p>
+</section>
+<section id="solution-3" class="level4">
+<h4 class="anchored" data-anchor-id="solution-3">Solution</h4>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+</section>
+<section id="problem-5" class="level4">
+<h4 class="anchored" data-anchor-id="problem-5">Problem 5</h4>
+<p><strong>Find f’(x) and simplify</strong> (Quotient Rule)</p>
+<p><span class="math display">\[\frac{x^3+1}{x^3-1}\]</span></p>
+</section>
+<section id="solution-4" class="level4">
+<h4 class="anchored" data-anchor-id="solution-4">Solution</h4>
+
+</section>
+<section id="problem-6" class="level4">
+<h4 class="anchored" data-anchor-id="problem-6">Problem 6</h4>
+<p>(Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by</p>
+<p><span class="math display">\[
+C(q) = 31250 +30q + q^3,
+\]</span> where <span class="math inline">\(q\)</span> is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day. How many MP3 players should be manufactured in order to minimize the average cost?</p>
+</section>
+<section id="solution-5" class="level4">
+<h4 class="anchored" data-anchor-id="solution-5">Solution</h4>
+<p>Since it cost <span class="math inline">\(C(q)\)</span> to produce <span class="math inline">\(x\)</span> items (MP3 players), the average cost for each item is</p>
+<p><span class="math display">\[
+f(q) = \frac{C(q)}{q}.
+\]</span> We need to find <span class="math inline">\(q\)</span> to minimize <span class="math inline">\(f(q)\)</span>. Notice that</p>
+<p><span class="math display">\[
+0 &lt; q \leq 100.
+\]</span> We will follow the three step procedure above,</p>
+<section id="step-1-find-and-simplify-fq" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-find-and-simplify-fq">Step 1: Find and simplify <span class="math inline">\(f'(q)\)</span></h5>
+<p><span class="math display">\[
+f(q) = \frac{31250 +30q + q^3}{q}
+\]</span> Use the quotient rule, we have</p>
+<p><span class="math display">\[\begin{equation} \label{eq1}
+\begin{split}
+f'(q) &amp; = \frac{(31250 + 30q +q^3)'\cdot q - (q)'\cdot(31250 +30q + q^3) }{q^2} \\
+\\[-1em]
+\\[-1em]
+&amp; = \frac{(30 + 3q^2) \cdot (q) - (1) \cdot (31250 +30q + q^3)}{q^2} \\
+\\[-1em]
+\\[-1em]
+&amp; = \frac{30q + 3q^3 - 31250 -30q - q^3}{q^2} \\
+\\[-1em]
+\\[-1em]
+&amp; = \frac{2q^3 - 31250}{q^2}
+\end{split}
+\end{equation}\]</span></p>
+</section>
+<section id="step-2-solve-fq-0." class="level5">
+<h5 class="anchored" data-anchor-id="step-2-solve-fq-0.">Step 2: Solve <span class="math inline">\(f'(q) = 0\)</span>.</h5>
+<p><span class="math display">\[
+f'(q) = 0
+\Rightarrow \frac{2q^3 - 31250}{q^2} = 0
+\]</span></p>
+<p>Multiply both sides by <span class="math inline">\(q^2\)</span> to eliminate the denominator:</p>
+<p><span class="math display">\[
+2q^3 - 31250 = 0
+\]</span></p>
+<p>Solve for <span class="math inline">\(q\)</span>:</p>
+<p><span class="math display">\[
+2q^3 = 31250
+\Rightarrow q^3 = 31250/2 = 15625
+\Rightarrow q = \sqrt[3]{15625}
+\Rightarrow q = 25
+\]</span></p>
+<p> <span class="math display">\[
+q = 25
+\]</span></p>
+<p>Therefore, the company should produce 25 items to minimized the average cost.</p>
+</section>
+</section>
+<section id="problem-7" class="level4">
+<h4 class="anchored" data-anchor-id="problem-7">Problem 7</h4>
+<p>(Maximizing Revenue) A company estimates that if it sets the price of an item at <span class="math inline">\(p\)</span> dollars, then it can sells <span class="math display">\[q = 13500 - p^3\]</span> items per year. The condition for <span class="math inline">\(p\)</span> is that <span class="math inline">\(0 \leq p \leq 20\)</span>. Find the price, <span class="math inline">\(p\)</span>, that maximizes the annual revenue.</p>
+</section>
+<section id="solution-6" class="level4">
+<h4 class="anchored" data-anchor-id="solution-6">Solution</h4>
+<p>To maximize the revenue function, we first write the revenue function. Since revenue is the product of the price for one item (<span class="math inline">\(p\)</span>) and the number of items sold (<span class="math inline">\(q\)</span>), we have the revenue function is</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+f(p) &amp; = p \cdot q \\
+\\[-1em]
+&amp; = p \cdot (13500 - p^3) \\
+\\[-1em]
+&amp; = 13500p - p^4
+\end{split}
+\end{equation}\]</span></p>
+<p>We need to find <span class="math inline">\(p\)</span> to maximize <span class="math inline">\(f(p)\)</span>. We will follow the procedure above.</p>
+<section id="step-1-find-and-simplify-fp" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-find-and-simplify-fp">Step 1: Find and simplify <span class="math inline">\(f'(p)\)</span></h5>
+<p><span class="math display">\[
+f'(p) = \big(13500p - p^4\big)' = 13500 -4p^3
+\]</span></p>
+</section>
+<section id="step-2-solve-fp-0." class="level5">
+<h5 class="anchored" data-anchor-id="step-2-solve-fp-0.">Step 2: Solve <span class="math inline">\(f'(p) = 0\)</span>.</h5>
+<p><span class="math display">\[\begin{align*}
+&amp; 13500 -4p^3 = 0 \\
+\\[-1em]
+\implies  &amp; 4p^3 = 13500 \\
+\\[-1em]
+\implies &amp; p^3 = \frac{13500}{4} = 3375 \\
+\\[-1em]
+\implies &amp; p = 15
+\end{align*}\]</span></p>
+<p>Therefore, the company should sets the price to be 15 dollars to maximize the annual revenue.</p>
+</section>
+</section>
+<section id="problem-8" class="level4">
+<h4 class="anchored" data-anchor-id="problem-8">Problem 8</h4>
+<p>(Maximizing Profit) A company determines that when <span class="math inline">\(q\)</span> units of a product are produced each month, they will be sold at the price of <span class="math display">\[p = 100-q\]</span> dollars per unit. The total cost of producing the <span class="math inline">\(q\)</span> units will be <span class="math display">\[C(q) = q^2 + 100.\]</span></p>
+<p>How many units should the company produce to maximize the profit?</p>
+</section>
+<section id="solution-7" class="level4">
+<h4 class="anchored" data-anchor-id="solution-7">Solution</h4>
+<p>To maximize the profit, we first need to write the profit function. Since the profit is the difference between the revenue and the cost, we have the profit function <span class="math inline">\(f(q)\)</span> is</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+f(q) &amp; = \text{Revenue} - \text{Cost} \\
+\\[-1em]
+&amp; = q \cdot p(q) - C(q) \\
+\\[-1em]
+&amp; = q \cdot (100-q) - (q^2+100) \\
+\\[-1em]
+&amp; = 100q -q^2 - q^2 -100 \\
+\\[-1em]
+&amp; = 100q -2q^2-100
+\end{split}
+\end{equation}\]</span></p>
+<p>We need to find <span class="math inline">\(q\)</span> to maximize <span class="math inline">\(f(q)\)</span>. We will follow the procedure above.</p>
+<section id="step-1-find-and-simplify-fq-1" class="level5">
+<h5 class="anchored" data-anchor-id="step-1-find-and-simplify-fq-1">Step 1: Find and simplify <span class="math inline">\(f'(q)\)</span></h5>
+<p><span class="math display">\[
+f'(q) = \big(100q -2q^2-100 \big)' = 100-4q
+\]</span></p>
+</section>
+<section id="step-2-solve-fq-0.-1" class="level5">
+<h5 class="anchored" data-anchor-id="step-2-solve-fq-0.-1">Step 2: Solve <span class="math inline">\(f'(q) = 0\)</span>.</h5>
+<p><span class="math display">\[\begin{align*}
+&amp; 100-4q = 0 \\
+\\[-1em]
+\implies &amp; q = \frac{100}{4} \\
+\\[-1em]
+\implies &amp; q = 25
+\end{align*}\]</span></p>
+<p>Therefore, the company should sell 25 items to maximize the profit.</p>
+</section>
+</section>
 
 </main>
 <!-- /main column -->

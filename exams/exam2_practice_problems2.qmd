@@ -65,7 +65,7 @@ $$f(x) = x^2e^x$$
 #### Problem 5
 **Find f'(x) and simplify** (Quotient Rule)
 
-$$\frac{x^2+x+1}{x^2-x-1}$$
+$$\frac{x^2+1}{x^2-1}$$
 
 
 \pagebreak
