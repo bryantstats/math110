@@ -11,7 +11,7 @@ editor: visual
 
 Solution for Problem 1 to 5 are in the link below.
 
-[Solution Problem 1 to 5](exam2_solution.pdf)
+[Solution Problem 1 to 5](https://bryantstats.github.io/math110/exams/exam2_solution1.pdf)
 
 \pagebreak
 

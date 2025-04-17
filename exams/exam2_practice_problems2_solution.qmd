@@ -7,66 +7,11 @@ editor: visual
 ---
 \pagenumbering{gobble}
 
-#### Problem 1. 
+#### Problem 1-5
 
-**Find f'(x)** (Power Rule)
+Solution for Problem 1 to 5 are in the link below.
 
-$$f(x) = 3x^{2025} - \frac{3x^2}{5} + x - \sqrt{x} + \frac{\sqrt[3]{x}}{4} + \frac{1}{x} - \frac{1}{x^4} + 1$$
-\
-\
-\
-\
-\
-\
-\
-\
-
-#### Problem 2
-**Find f'(x)** (Log Rule)
-
-$$f(x) = 3\log_{2025} x - \frac{\ln x}{5} + 5 \log_{7} x + 1$$
-\
-\
-\
-\
-\
-\
-\
-\
-
-
-
-#### Problem 3
-**Find f'(x)** (Exponential Rule)
-
-$$f(x) = e^x - 2025^x - \frac{8^x}{7} + 2025$$
-\
-\
-\
-\
-\
-\
-\
-\
-
-#### Problem 4
-**Find f'(x)** (Product Rule)
-
-$$f(x) = x^2e^x$$
-\
-\
-\
-\
-\
-\
-\
-\
-
-#### Problem 5
-**Find f'(x) and simplify** (Quotient Rule)
-
-$$\frac{x^2+x+1}{x^2-x-1}$$
-
+[Solution Problem 1 to 5](https://bryantstats.github.io/math110/exams/exam2_solution2.pdf)
 
 \pagebreak
 
