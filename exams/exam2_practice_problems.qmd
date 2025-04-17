@@ -1,7 +1,7 @@
 ---
-title: "Exam 2 - Practice Problems"
+title: "Exam 2 - Practice 1"
 format: 
-  pdf:
+  html:
     toc: false
 editor: visual
 ---
