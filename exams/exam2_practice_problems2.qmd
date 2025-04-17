@@ -1,5 +1,5 @@
 ---
-title: "Exam 2 - Practice 1"
+title: "Exam 2 - Practice 2"
 format: 
   html:
     toc: false
@@ -11,7 +11,7 @@ editor: visual
 
 **Find f'(x)** (Power Rule)
 
-$$f(x) = x^3 - 3x^2 + 3x + 3\sqrt{x} + 2\sqrt[3]{x} + \frac{2}{x} - \frac{3}{x^4} + 2025$$
+$$f(x) = 3x^{2025} - \frac{3x^2}{5} + x - \sqrt{x} + \frac{\sqrt[3]{x}}{4} + \frac{1}{x} - \frac{1}{x^4} + 1$$
 \
 \
 \
