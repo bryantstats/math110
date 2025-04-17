@@ -19,71 +19,71 @@ We can use the derivatives to find the minimum and maximum of functions.  Suppos
 The per-day cost function of the manufacture of portable MP3 players is given by
 
 $$
-C(x) = 128,000 +30x + x^3,
+C(q) = 128,000 +30q + q^3,
 $$
-where $x$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
 
 #### Solution
 
-Since it cost $C(x)$ to produce $x$ items (MP3 players), the average cost for each item is
+Since it cost $C(q)$ to produce $x$ items (MP3 players), the average cost for each item is
 
 $$
-f(x) = \frac{C(x)}{x}.
+f(q) = \frac{C(q)}{q}.
 $$
-We need to find $x$ to minimize $f(x)$. Notice that 
+We need to find $q$ to minimize $f(q)$. Notice that 
 
 $$
-0 < x \leq 100.
+0 < q \leq 100.
 $$
 We will follow the three step procedure above, 
 
-##### Step 1: Find and simplify $f'(x)$
+##### Step 1: Find and simplify $f'(q)$
 
 $$
-f(x) = \frac{128,000 + 30x +x^3}{x}
+f(q) = \frac{128,000 + 30q +q^3}{q}
 $$
 Use the quotient rule, we have
 
 \begin{equation} \label{eq1}
 \begin{split}
-f'(x) & = \frac{(128,000 + 30x +x^3)'\cdot x - (x)'\cdot(128,000 + 30x +x^3) }{x^2} \\
+f'(q) & = \frac{(128,000 + 30q +q^3)'\cdot q - (q)'\cdot(128,000 + 30q +q^3) }{q^2} \\
 \\[-1em]
 \\[-1em]
- & = \frac{(30 + 3x^2) \cdot (x) - (1) \cdot (128{,}000 + 30x + x^3)}{x^2} \\
+ & = \frac{(30 + 3q^2) \cdot (q) - (1) \cdot (128{,}000 + 30q + q^3)}{q^2} \\
  \\[-1em]
 \\[-1em]
-& = \frac{30x + 3x^3 - 128{,}000 - 30x - x^3}{x^2} \\
+& = \frac{30q + 3q^3 - 128{,}000 - 30q - q^3}{q^2} \\
 \\[-1em]
 \\[-1em]
-& = \frac{2x^3 - 128{,}000}{x^2}
+& = \frac{2q^3 - 128{,}000}{q^2}
 \end{split}
 \end{equation}
 
-##### Step 2: Solve $f'(x) = 0$. 
+##### Step 2: Solve $f'(q) = 0$. 
 
 $$
-f'(x) = 0
-\Rightarrow \frac{2x^3 - 128{,}000}{x^2} = 0
+f'(q) = 0
+\Rightarrow \frac{2q^3 - 128{,}000}{q^2} = 0
 $$
 
-Multiply both sides by  $x^2$ to eliminate the denominator:
+Multiply both sides by  $q^2$ to eliminate the denominator:
 
 $$
-2x^3 - 128{,}000 = 0
+2q^3 - 128{,}000 = 0
 $$
 
-Solve for $x$:
+Solve for $q$:
 
 $$
-2x^3 = 128{,}000 
-\Rightarrow x^3 = 64{,}000 
-\Rightarrow x = \sqrt[3]{64{,}000}
-\Rightarrow x = 40
+2q^3 = 128{,}000 
+\Rightarrow q^3 = 64{,}000 
+\Rightarrow q = \sqrt[3]{64{,}000}
+\Rightarrow q = 40
 $$
 
 \textbf{Therefore, the solution is:}
 $$
-x = 40
+q = 40
 $$
 
 Therefore, the company should produce 40 items to minimized the average cost. 
@@ -93,10 +93,10 @@ Therefore, the company should produce 40 items to minimized the average cost.
 The per-day cost function of the manufacture of portable MP3 players is given by
 
 $$
-C(x) = 686,000 +30x + x^3,
+C(q) = 686,000 +30q + q^3,
 $$
 
-where $x$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
 
 ## 2. Maximizing the revenue
 
@@ -209,13 +209,16 @@ $$C(q) = 3q^2 +5q + 75.$$
 
 How many units should the company produce to maximize the profit?
 
-
 3. (Optional - Extra Credits). A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
 $$p = 180 - 2q$$ 
 dollars per unit. The total cost of producing the $q$ units will be 
 $$C(q) = q^3 +5q + 162.$$
 
 How many units should the company produce to maximize the profit?
+
+
+
+
 
 
 
