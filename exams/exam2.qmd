@@ -1,17 +1,19 @@
 ---
-title: "Exam 2 - Practice 2"
+title: "Exam 2"
 format: 
-  html:
+  pdf:
     toc: false
 editor: visual
 ---
 \pagenumbering{gobble}
 
+*Please show all your work for credits.  No credit for guessing. *
+
 #### Problem 1. 
 
-**Find f'(x)** (Power Rule)
+**Find f'(x)** 
 
-$$f(x) = 3x^{2025} - \frac{3x^2}{5} + x - \sqrt{x} + \frac{\sqrt[3]{x}}{4} + \frac{1}{x} - \frac{1}{x^4} + 1$$
+$$f(x) = 3x^{4} - \frac{4x^2}{7} + 3x  +  \sqrt{x} + \frac{1}{x} - \frac{1}{x^2} + 1$$
 \
 \
 \
@@ -22,9 +24,9 @@ $$f(x) = 3x^{2025} - \frac{3x^2}{5} + x - \sqrt{x} + \frac{\sqrt[3]{x}}{4} + \fr
 \
 
 #### Problem 2
-**Find f'(x)** (Log Rule)
+**Find f'(x)** 
 
-$$f(x) = 3\log_{2025} x - \frac{\ln x}{5} + 5 \log_{7} x + 1$$
+$$f(x) = 3\log_{11} x + \frac{\ln x}{8} + 5 \log_{9} x + 1$$
 \
 \
 \
@@ -37,9 +39,9 @@ $$f(x) = 3\log_{2025} x - \frac{\ln x}{5} + 5 \log_{7} x + 1$$
 
 
 #### Problem 3
-**Find f'(x)** (Exponential Rule)
+**Find f'(x)** 
 
-$$f(x) = e^x - 2025^x - \frac{8^x}{7} + 2025$$
+$$f(x) = e^x - 10^x - \frac{8^x}{7} + 10$$
 \
 \
 \
@@ -50,9 +52,9 @@ $$f(x) = e^x - 2025^x - \frac{8^x}{7} + 2025$$
 \
 
 #### Problem 4
-**Find f'(x)** (Product Rule)
+**Find f'(x)** 
 
-$$f(x) = x^2e^x$$
+$$f(x) = x\ln x$$
 \
 \
 \
@@ -63,9 +65,9 @@ $$f(x) = x^2e^x$$
 \
 
 #### Problem 5
-**Find f'(x) and simplify** (Quotient Rule)
+**Find f'(x) and simplify** 
 
-$$\frac{x^2+x+1}{x^2-x-1}$$
+$$\frac{x^4+1}{x^4-1}$$
 
 
 \pagebreak
