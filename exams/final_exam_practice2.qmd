@@ -17,7 +17,7 @@ The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel
 
 Given a simulated dataset below. The tuition is in thousands. 
 
-| Year Since 2000 (x) | Tuition (k) (y) |
+| Year Since 2000 (x) | Tuition in thousands (y) |
 |------|---------|
 | 0 | 10         |
 | 1 |  11.5       |
