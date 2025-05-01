@@ -1,0 +1,189 @@
+---
+title: "Final Exam - Practice 1"
+format: 
+  html:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+*Please show all your work for credits.  No credit for guessing. *
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. 
+
+## Part 1. Written Part. 
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year (x) | Tuition (y) |
+|------|---------|
+| 2020 | 10         |
+| 2021 |  12.5       |
+| 2022 |  15       |
+| 2023 |  17.5     |
+| 2024 |  20       |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2010) | Tuition |
+|------|---------|
+| 0 | 10      |
+| 1 | 11.5      |
+| 2 | 13.225    |
+| 3 | 15.20875   |
+| 4 | 17.4900625  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+#### Problem 3. 
+
+**Find f'(x)** (Power Rule)
+
+$$f(x) = 3x^{2025} - \frac{3x^2}{5} + x - \sqrt{x} + \frac{\sqrt[3]{x}}{4} + \frac{1}{x} - \frac{1}{x^4} + 1$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 4
+**Find f'(x)** (Product Rule)
+
+$$f(x) = x^2e^x$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 5 
+**Find f'(x) and simplify** (Quotient Rule)
+
+$$\frac{x^2+1}{x^2-1}$$
+
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 6000 +50q + 3q^3,
+$$
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 27000 - 2p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-3q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 20q + 100.$$
+
+How many units should the company produce to maximize the profit?
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+## Part 2. Excel Part. 
+
+#### Problem 1
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        1        |
+| 2013 |        1.5       |
+| 2014 |        2       |
+| 2015 |        3       |
+| 2016 |        5       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+
+#### Problem 2
+
+A workshop produces desks and chairs.					
+Profit per desk = $10.					
+Profit per chair = $14.					
+One desk requires 2 hours of carpentry and 1 hours of painting.					
+One chair requires 1 hours of carpentry and 3 hour of painting.					
+Maximum carpentry hours = 10 hours.					
+Maximum painting hours = 15 hours.			
+
+---
