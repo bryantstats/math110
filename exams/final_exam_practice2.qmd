@@ -1,7 +1,7 @@
 ---
 title: "Final Exam - Practice 2"
 format: 
-  pdf:
+  html:
     toc: false
 editor: visual
 ---
