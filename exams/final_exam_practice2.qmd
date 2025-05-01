@@ -34,23 +34,7 @@ Given a simulated dataset below. The tuition is in thousands.
 
 4. What year the tuition will be more than 20k?
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
+\pagebreak
 
 #### Problem 2. 
 
@@ -73,23 +57,7 @@ Given a simulated dataset below. The tuition is in thousands.
 
 4. What year the tuition will be more than 50k?
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
+\pagebreak
 
 #### Problem 3. 
 
@@ -123,6 +91,7 @@ $$f(x) = x^33^x$$
 
 $$\frac{x^9+1}{x^9-1}$$
 
+\pagebreak
 
 #### Problem 6
 
@@ -155,44 +124,15 @@ where $q$ is the number of smartphones  manufactured per day. Assume that the co
 
 (Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 46656 - 2p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+\pagebreak
 
 #### Problem 8
 
 (Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 120-2q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 24q + 200.$$
 
 How many units should the company produce to maximize the profit?
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+
+\pagebreak
 
 ## Part 2. Excel Part. 
 
