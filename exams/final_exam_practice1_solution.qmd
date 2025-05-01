@@ -153,7 +153,7 @@ Solution for Problem 1 to 5 are in the link below.
 
 #### Problem 3-5. 
 
-[Solution Problem 3 to 5](https://bryantstats.github.io/math110/exams/final_exam_solution_3_5)
+[Solution Problem 3 to 5](final_exam_solution_3_5.pdf)
 
 #### Problem 6
 
