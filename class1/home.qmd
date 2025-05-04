@@ -56,5 +56,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 4/24 |  |  | 
 | **Week 14** |  |  |  |
 | 4/29 | Linear Programming | [Lecture Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f48092f-9fce-40df-b1d2-b2ce013e2e3a)  | 
-| 4/30 | Review for Final Exam  | [Practice 1](https://bryantstats.github.io/math110/exams/final_exam_practice1.html), [Solution](https://bryantstats.github.io/math110/exams/final_exam_practice1_solution.html) <br>  [Practice 2](https://bryantstats.github.io/math110/exams/final_exam_practice2.html), [Solution]() | 
+| 4/30 | Review for Final Exam  | [Practice 1](https://bryantstats.github.io/math110/exams/final_exam_practice1.html), [Solution](https://bryantstats.github.io/math110/exams/final_exam_practice1_solution.html) <br>  [Practice 2](https://bryantstats.github.io/math110/exams/final_exam_practice2.html), [Solution](https://bryantstats.github.io/math110/exams/final_exam_practice2_solution.html) | 
 : {.striped .hover}
