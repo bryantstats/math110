@@ -1,0 +1,134 @@
+---
+title: "MATH 110. Mathematical Analysis"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Office hours
+
+Office hours is from 1-5pm on Wednesday at Suite F, Room 2409 or on Zoom (ID: 4419675207). If these time slots do not work, please feel free to schedule another time with me.
+
+
+## Course Description
+
+This course both satisfies the Quantitative Reasoning Requirement in the General Education Curriculum and serves as a foundational course for other mathematics courses.
+
+A.  Connection to General Education:
+
+-   Skills
+
+    -   Ethical Engagement: Critical Thinking, Creative Thinking, Problem-Solving
+    -   Engagement with Information: Data Analysis
+
+-   UN Sustainable Development Goals (SDGs) focused upon:
+
+    -   #3 Good Health and Well-Being
+    -   #4 Quality Education
+    -   #8 Decent Work and Economic Growth
+
+B. Mathematical Focus
+
+MATH 110 is an applied mathematics course that presents a mathematical way of thinking and provides students with experiential opportunities to explore how to quantitatively analyze complex problems. Four general areas are covered: a review of mathematical functions and their applications; the mathematics of finance; creation, use, and interpretation of models involving real-world data; and linear programming and optimization. Applications are relevant for sustainability issues, business and management, economics and finance, and the social and natural sciences.
+
+## Textbook
+
+-   No text books required
+
+## Course Objectives
+
+After successfully completing this course, each student will
+
+-   define basic mathematics functions including polynomial, logarithmic and exponential functions
+-   model real-world dataset using appropriate mathematics functions
+-   explain the applications of exponential functions in finance use these functions in solving problems in finance
+-   implement linear programming technique in solving optimization problems
+-   compute the derivatives of basic mathematics functions and apply the derivatives to solve optimization problems
+
+## Grades
+
+```{r}
+# install.packages("ggplot2")
+library(ggplot2)
+library(dplyr)
+# Variables
+
+Percentage = c(.05, .1,.5, .35)
+Grades = c('Attendance', 'Assignments','Midterm - Exams', 'Final Exam')
+
+df = data.frame(Grades = Grades, Percentage = Percentage, labels = paste0(Percentage*100, "%"))
+
+ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
+  geom_col() +
+  geom_label(aes(label = labels),
+             position = position_stack(vjust = 0.5),
+             show.legend = FALSE) +
+  labs(x='')+
+  coord_polar(theta = "y")+
+  theme_void()
+```
+
+-   *Assignments*: Tentatively, the assignments and case studies will be done during class where you can ask questions.
+
+-   *Attendance*: Missing no more than 2 classes will guarantee you the 5% of the grades for attendance. 
+
+## Grades Scale
+
+The numerical grades are converted to letter grades as follows.
+
+|     |                |     |                |
+|-----|----------------|-----|----------------|
+| A   | 92.45 - 100%   | C   | 72.45 - 76.44% |
+| A-  | 89.45 - 92.44% | C-  | 69.45 - 72.44% |
+| B+  | 86.45 - 89.44% | D+  | 66.45 - 69.44% |
+| B   | 82.45 - 86.44% | D   | 59.45 - 66.44% |
+| B-  | 79.45 - 82.44% | F   | Below 59.44%   |
+| C+  | 76.45 - 79.44% |     |                |
+
+```{r}
+library(ggplot2)
+library(forcats)
+
+# Basic barplot
+
+Grades           = c("A","A-","B+","B","B-","C+","C","C-","D+","D", "F")
+Total_Percentage = c(92.45, 89.45, 86.45, 82.45 ,79.45, 76.45, 72.45, 69.45, 66.45, 59.45, 0)
+df = data.frame(Grades = Grades, Total_Percentage = Total_Percentage)
+
+
+p<-ggplot(data=df, aes(x= fct_rev(fct_reorder(Grades, Total_Percentage)), y=Total_Percentage)) +
+  geom_col(fill="steelblue")+
+  labs(y = 'Total Percentage', x ='Letter Grade')+
+  geom_text(aes(label = Total_Percentage), vjust = -0.5)+
+  theme_minimal()
+p
+
+```
+
+## Tentative Topics
+
+-   Review of mathematical functions and their applications; 
+-   The mathematics of finance; creation, use, and interpretation of models involving real-world data; 
+-   Linear Programming and Optimization
+-   Derivatives and Optimization
+
+## Sustainable Development Goals
+
+We will occasionally discuss and work with data related to the [United Nation Sustainable Development Goals](https://sdgs.un.org/goals). These goals are called by the UN for action in a global partnership to provide peace and prosperity for people and the planet, now and into the future. Specifically, we will focus one of the following three SDGs:
+
+-   [SDG 3](https://www.globalgoals.org/goals/3-good-health-and-well-being/): Good Health & wellbeing\
+-   [SDG 4](https://www.globalgoals.org/goals/4-quality-education/): Quality Education\
+-   [SDG 8](https://www.globalgoals.org/goals/8-decent-work-and-economic-growth/): Decent Work and Economic Growth
+
+## Academic Misconduct
+
+Cheating will result in an F as your final grade and may result in your expulsion from the University. All cheating will be reported to the Chair of the Mathematics Department and Academic Advising.
+
+## Regarding Diversity
+
+In this course, and all your courses at Bryant, and throughout the Bryant learning community, we value and respect diversity. This includes differences in race, ethnicity, nationality, gender, gender identity, sexuality, socioeconomic status, ability, and religion.

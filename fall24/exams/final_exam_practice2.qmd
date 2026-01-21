@@ -1,0 +1,166 @@
+---
+title: "Final Exam - Practice 2"
+format: 
+  pdf:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+*Please show all your work for credits.  No credit for guessing. *
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. 
+
+## Part 1. Written Part. 
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year Since 2000 (x) | Tuition in thousands (y) |
+|------|---------|
+| 0 | 10         |
+| 1 |  11.5       |
+| 2 |  13       |
+| 3 |  14.5     |
+| 4 |  16       |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2010
+
+4. What year the tuition will be more than 20k?
+
+\pagebreak
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2000) | Tuition |
+|------|---------|
+| 0 | 10      |
+| 1 | 11      |
+| 2 | 12.1    |
+| 3 | 13.31   |
+| 4 | 14.641  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2010.
+
+4. What year the tuition will be more than 50k?
+
+\pagebreak
+
+#### Problem 3. 
+
+**Find f'(x)** (Power Rule)
+
+$$f(x) = 2x^{10} - \frac{2x^2}{3} + x - \sqrt{x} + \frac{\sqrt[4]{x}}{3} + \frac{1}{x} - \frac{1}{x^5} + 10$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 4
+**Find f'(x)** (Product Rule)
+
+$$f(x) = x^33^x$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 5 
+**Find f'(x) and simplify** (Quotient Rule)
+
+$$\frac{x^9+1}{x^9-1}$$
+
+\pagebreak
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of smartphones is given by
+
+$$
+C(q) = 4000 +40q + 2q^3,
+$$
+where $q$ is the number of smartphones  manufactured per day. Assume that the company cannot manufacture more than 100 smartphones per day.  How many smartphones  should be manufactured in order to minimize the average cost? 
+
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 46656 - 2p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+
+\pagebreak
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 120-2q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 24q + 200.$$
+
+How many units should the company produce to maximize the profit?
+
+\pagebreak
+
+## Part 2. Excel Part. 
+
+#### Problem 1
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        1.1        |
+| 2013 |        1.5       |
+| 2014 |        2.2       |
+| 2015 |        3.3       |
+| 2016 |        5.2       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+
+#### Problem 2
+
+A factory produces cabinets and bookshelves.
+Profit per cabinet = $20.
+Profit per bookshelf = $25.
+Each cabinet requires 5 hours of carpentry and 3 hours of painting.
+Each bookshelf requires 2 hours of carpentry and 4 hour of painting.
+The factory has the following constraints:
+Maximum carpentry hours available = 20 hours.
+Maximum painting hours available = 15 hours.
+How many cabinets and bookshelves should the factory produce to maximize profit?
+
+---

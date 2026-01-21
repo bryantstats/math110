@@ -1,0 +1,226 @@
+---
+title: "Some Applications of Derivatives"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+We can use the derivatives to find the minimum and maximum of functions.  Suppose we want to find the minimum and maximum of a function $f(x)$. In these examples, we will be given that $f(x)$ will be maximized or minimized at the soltion of $f'(x) = 0$.  Therefore, the procedure to do is as follows. 
+
+- Step 1: Find and simplify $f'(x)$
+
+- Step 2: Solve $f'(x) = 0$. Suppose that the solution is $x=c$. 
+
+## 1. Minimizing the average cost. 
+
+#### Example
+
+The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 128,000 +30q + q^3,
+$$
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+#### Solution
+
+Since it cost $C(q)$ to produce $x$ items (MP3 players), the average cost for each item is
+
+$$
+f(q) = \frac{C(q)}{q}.
+$$
+We need to find $q$ to minimize $f(q)$. Notice that 
+
+$$
+0 < q \leq 100.
+$$
+We will follow the three step procedure above, 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f(q) = \frac{128,000 + 30q +q^3}{q}
+$$
+Use the quotient rule, we have
+
+\begin{equation} \label{eq1}
+\begin{split}
+f'(q) & = \frac{(128,000 + 30q +q^3)'\cdot q - (q)'\cdot(128,000 + 30q +q^3) }{q^2} \\
+\\[-1em]
+\\[-1em]
+ & = \frac{(30 + 3q^2) \cdot (q) - (1) \cdot (128{,}000 + 30q + q^3)}{q^2} \\
+ \\[-1em]
+\\[-1em]
+& = \frac{30q + 3q^3 - 128{,}000 - 30q - q^3}{q^2} \\
+\\[-1em]
+\\[-1em]
+& = \frac{2q^3 - 128{,}000}{q^2}
+\end{split}
+\end{equation}
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+$$
+f'(q) = 0
+\Rightarrow \frac{2q^3 - 128{,}000}{q^2} = 0
+$$
+
+Multiply both sides by  $q^2$ to eliminate the denominator:
+
+$$
+2q^3 - 128{,}000 = 0
+$$
+
+Solve for $q$:
+
+$$
+2q^3 = 128{,}000 
+\Rightarrow q^3 = 64{,}000 
+\Rightarrow q = \sqrt[3]{64{,}000}
+\Rightarrow q = 40
+$$
+
+\textbf{Therefore, the solution is:}
+$$
+q = 40
+$$
+
+Therefore, the company should produce 40 items to minimized the average cost. 
+
+#### Assignment
+
+The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 686,000 +30q + q^3,
+$$
+
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+## 2. Maximizing the revenue
+
+#### Example
+
+A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 2,700 - p^2$$ items per year.  The condition for $p$ is that $0 \leq p \leq 50$. Find the price, $p$, that maximizes the annual revenue. 
+
+#### Solution
+
+To maximize the revenue function, we first write the revenue function. Since revenue is the product of the price for one item ($p$) and the number of items sold ($q$), we have the revenue function is
+
+\begin{equation}
+\begin{split}
+f(p) & = p \cdot q \\
+\\[-1em]
+ & = p \cdot (2700 - p^2) \\
+ \\[-1em]
+ & = 2700p - p^3
+\end{split}
+\end{equation}
+
+We need to find $p$ to maximize $f(p)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(p)$
+
+$$
+f'(p) = 2700-3p^2
+$$
+
+##### Step 2: Solve $f'(p) = 0$. 
+
+\begin{align*}
+& 2700-3p^2 = 0 \\
+\\[-1em]
+ \implies  & 3p^2 = 2700 \\
+ \\[-1em]
+ \implies & p^2 = \frac{2700}{3} = 900 \\
+ \\[-1em]
+ \implies & p = 30 
+\end{align*}
+
+Therefore, the company should sets the price to be 30 dollars to maximize the annual revenue. 
+
+#### Assignment 18
+
+1. A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 300,000 - 10p^2$$ items per year.  The condition for $p$ is that $0 \leq p \leq 150$. Find the price, $p$, that maximizes the annual revenue. 
+
+2. A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 1,200 - p^2$$ items per year.  The condition for $p$ is that $0 \leq p \leq 30$. Find the price, $p$, that maximizes the annual revenue. 
+
+
+## 3. Maximizing the profit
+
+#### Example
+
+A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 22.2-1.2q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = 0.4q^2 +3q +40.$$
+
+How many units should the company produce to maximize the profit?
+
+#### Solution
+
+To maximize the profit, we first need to write the profit function. Since the profit is the difference between the revenue and the cost, we have the profit function $f(q)$ is
+
+\begin{equation}
+\begin{split}
+f(q) & = \text{Revenue} - \text{Cost} \\
+\\[-1em]
+ & = q \cdot p(q) - C(q) \\
+ \\[-1em]
+ & = q \cdot (22.2-1.2q) - (0.4q^2+3q+40) \\
+ \\[-1em]
+ & = 22.2q - 1.2q^2 - 0.4q^2 -3q -40 \\
+ \\[-1em]
+ & = -1.6q^2 + 19.2q -40
+\end{split}
+\end{equation}
+
+We need to find $q$ to maximize $f(q)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f'(q) = -1.6\cdot 2q + 19.2 = -3.2q+19.2
+$$
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+\begin{align*}
+& -3.2q+19.2 = 0 \\
+\\[-1em]
+ \implies & q = \frac{19.2}{3.2} \\
+ \\[-1em]
+ \implies & q = 6
+\end{align*}
+
+Therefore, the company should sell 6 items to maximize the profit. 
+
+#### Assignment 19
+
+1. A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
+$$p = 49 - q$$ 
+dollars per unit. The total cost of producing the $q$ units will be 
+$$C(q) = 0.125q^2 +4q +200.$$
+
+How many units should the company produce to maximize the profit?
+
+2. A company determines that when $q$ thousands units of a product are produced each month, they will be sold at the price of 
+$$p = 37 - 2q$$ 
+dollars per unit. The total cost of producing the $q$ units will be 
+$$C(q) = 3q^2 +5q + 75.$$
+
+How many units should the company produce to maximize the profit?
+
+3. (Optional - Extra Credits). A company determines that when $q$ units of a product are produced each month, they will be sold at the price of 
+$$p = 180 - 2q$$ 
+dollars per unit. The total cost of producing the $q$ units will be 
+$$C(q) = q^3 +5q + 162.$$
+
+How many units should the company produce to maximize the profit?
+
+
+
+
+
+
+
+
+

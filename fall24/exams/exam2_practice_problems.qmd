@@ -1,0 +1,141 @@
+---
+title: "Exam 2 - Practice 1"
+format: 
+  html:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+#### Problem 1. 
+
+**Find f'(x)** (Power Rule)
+
+$$f(x) = x^3 - 3x^2 + 3x + 3\sqrt{x} + 2\sqrt[3]{x} + \frac{2}{x} - \frac{3}{x^4} + 2025$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 2
+**Find f'(x)** (Log Rule)
+
+$$f(x) = 3\log_2 x + 4\ln x + 5 \log_{7} x + 2020$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+
+
+#### Problem 3
+**Find f'(x)** (Exponential Rule)
+
+$$f(x) = 4e^x + 3^x + \frac{4^x}{3} + 1$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 4
+**Find f'(x)** (Product Rule)
+
+$$f(x) = (2^x + x^2)(\ln x + 3e^x)$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 5
+**Find f'(x) and simplify** (Quotient Rule)
+
+$$\frac{x^3+1}{x^3-1}$$
+
+
+\pagebreak
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 31250 +30q + q^3,
+$$
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 13500 - p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 100.$$
+
+How many units should the company produce to maximize the profit?
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\

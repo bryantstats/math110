@@ -1,0 +1,43 @@
+---
+title: "Final Exam"
+format: 
+  pdf:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+*Please show all your work for credits.  No credit for guessing. *
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. 
+
+---
+
+## Part 2. Excel Calculation. 
+
+#### Problem 1
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        3.1        |
+| 2013 |        3.5       |
+| 2014 |        4.2       |
+| 2015 |        5.3       |
+| 2016 |        6.2       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+
+#### Problem 2
+
+A workshop produces chairs and tables.
+Profit per chair = $30
+Profit per table = $50
+Each chair requires 4 hours of woodworking and 2 hours of finishing.
+Each table requires 3 hours of woodworking and 5 hours of finishing.
+The workshop has a maximum of 36 woodworking hours and 30 finishing hours available per week.
+How many chairs and tables should the workshop produce each week to maximize profit?
+
+---

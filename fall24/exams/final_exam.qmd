@@ -1,0 +1,132 @@
+---
+title: "Final Exam"
+format: 
+  pdf:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+*Please show all your work for credits.  No credit for guessing. The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. *
+
+## Part 1. Manual Calculation. 
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year Since 2000 (x) | Tuition in thousands (y) |
+|------|---------|
+| 0 | 10         |
+| 1 |  13       |
+| 2 |  16       |
+| 3 |  19     |
+| 4 |  22       |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2010
+
+4. What year the tuition will be more than 20 thousands?
+
+\pagebreak
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2000) | Tuition |
+|------|---------|
+| 0 | 1      |
+| 1 | 1.3      |
+| 2 | 1.69    |
+| 3 | 2.197   |
+| 4 | 2.8561  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2010.
+
+4. What year the tuition will be more than 50k?
+
+\pagebreak
+
+#### Problem 3. 
+
+**Find f'(x)** (Power Rule)
+
+$$f(x) = 6x^{4} - \frac{7x^2}{8} + x - \sqrt{x} + \frac{\sqrt[9]{x}}{2} - \frac{1}{x} - \frac{1}{x^9} + 8$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 4
+**Find f'(x)** (Product Rule)
+
+$$f(x) = x^4e^x$$
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 5 
+**Find f'(x) and simplify** (Quotient Rule)
+
+$$\frac{x-1}{x+1}$$
+
+\pagebreak
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of smartphones is given by
+$$
+C(q) = 39366 +60q + q^3,
+$$
+where $q$ is the number of smartphones  manufactured per day. Assume that the company cannot manufacture more than 100 smartphones per day.  How many smartphones  should be manufactured in order to minimize the average cost? 
+
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 32000 - p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 30$. Find the price, $p$, that maximizes the annual revenue. 
+
+\pagebreak
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = 2q^2 + 10q + 300.$$
+
+How many units should the company produce to maximize the profit?
+
+\pagebreak

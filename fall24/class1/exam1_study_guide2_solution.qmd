@@ -1,0 +1,171 @@
+---
+title: "Exam 1 - Practice 2's Solution"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation.
+
+## Part 1: Manual calculation
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year (x) | Tuition (y) |
+|------|---------|
+| 2020 | 10         |
+| 2021 |  12.5       |
+| 2022 |  15       |
+| 2023 |  17.5     |
+| 2024 |  20       |
+
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+#### Solution
+
+1. We have the following table.  For a tuition difference, subtract the tuition of a year to the tuition of the previous year (for example: 12.5-10 = 2.5).  For a tuition ratio, divide the tuition of a year to the tuition of the previous year (for example: 12.5/10 = 1.25)
+
+| Year (since 2020) | Tuition | Tuition Difference | Tuition Ratio |
+|------|---------|--------------------|---------------|
+| 0 | 10      |                    |               |
+| 1 | 12.5    | 2.5                | 1.25         |
+| 2 | 15      | 2.5                | 1.2      |
+| 3 | 17.5    | 2.5                | 1.167      |
+| 4 | 20      | 2.5                | 1.143      |
+
+We observe that the tuition difference is a constant, hence the data is linear. 
+
+2. Let the equation be
+
+$$y = mx +b.$$
+Where $y$ and $x$ are the tuition and year, respectively. 
+
+We need to find the constant $m$ and $b$. The slope $m$ is always the different constant, so $m = 2.5$. 
+
+To find $b$, plug in a data point, say, $x = 0$ and $y = 10$, we have:
+
+$$10 = b$$
+Thus, $$b = 10.$$ 
+
+Therefore, the equation is:
+
+$$y = 2.5*x + 10.$$
+
+3. To predict the tuition in 2030, plug $x = 2030-2020 = 10$ (since 2030 is 10 years since 2020) into the equation in 2. to find $y$. 
+
+$$y =  2.5*10 + 10 = 35.$$
+
+The model predicts the tuition in 2030 to be 35k.
+
+
+4. To find the year the tuition passes 100k, plug $y = 100$ into the equation to find $x$
+
+We have $$100 = 2.5*x + 10$$
+
+Thus, $$x =  \frac{100-10}{2.5} = 36$$
+
+Therefore the tuition will pass 100k in the year of 2020 + 36 = 2056. 
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2010) | Tuition |
+|------|---------|
+| 0 | 10      |
+| 1 | 11.5      |
+| 2 | 13.225    |
+| 3 | 15.20875   |
+| 4 | 17.4900625  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+#### Solution
+
+1. We have the following table. 
+
+| Year | Tuition | Tuition Difference | Tuition Ratio |
+|------|---------|--------------------|---------------|
+| 0 | 10      |                    |               |
+| 1 | 11.5      | 1.5                  | 1.15           |
+| 2 | 13.225    | 1.725                | 1.15           |
+| 3 | 15.20875   | 1.98375               | 1.15           |
+| 4 | 17.4900625  | 2.281313              | 1.15           |
+
+We observe that the tuition ratio is a constant, hence the data is exponential.  
+
+2. Let the equation be
+
+$$y = a.b^x$$
+Where $y$ and $x$ are the tuition and year, respectively. 
+
+We need to find the constant $a$ and $b$. The base $m$ is always the different ratio, so $b = 1.15$.
+
+To find $a$, plug in a data point, say, $x = 0$ and $y = 10$, we have:
+
+$$10 = a*1.15^{0}$$
+Thus, $$a = 10$$ 
+
+Therefore, the equation is:
+
+$$y = 10*1.15^x$$
+
+3. To predict the tuition in 2030, plug $x = 2030-2010 = 20$ into the equation in 2. to find $y$. 
+
+$$y =  10*1.15^{20} = 163.6654$$
+
+The model predicts the tuition in 2030 to be 163.6654
+
+
+4. To find the year the tuition passes 100k, plug $y = 100$ into the equation to find $x$
+
+We have $$100 = 10*1.15^x$$
+
+Thus, $1.15^ x =  100/10 = 10$.
+
+$$x = \log_{1.15}10 = 16.47505 \approx 17$$
+
+Therefore the tuition will pass 100k in 17 years since 2010, which is 2027. 
+
+
+## Part 2: Excel Calculation
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        1        |
+| 2013 |        1.5       |
+| 2014 |        2       |
+| 2015 |        3       |
+| 2016 |        5       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+[Video Solution](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88797aa3-2092-4a85-8151-b2a4015eb9d3)
+
+[Excel Solution](practice2_excel.xlsx)
+
+
+
+
+
+

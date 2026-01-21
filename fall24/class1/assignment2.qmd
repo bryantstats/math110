@@ -1,0 +1,21 @@
+---
+title: "Assignment 2"
+format: html
+editor: visual
+---
+
+## Problem
+
+A widget manufacturer has a variable cost
+of $10 per widget, and the total cost is $2100
+when 150 widgets are produced in a month. 
+
+a. Find the fix cost of this manufacturer.
+
+b. The manufacturer sells 50 widgets for $2000. Assume that the price for each widget is the same.  Find the price for each widget. 
+
+c. Find the break-even point of this manufacturer.  This means find the number of widgets the manufacturer needs to sell to break-even. 
+
+d. How many widgets the manufacturer needs to sell to make $100,000 profit?
+
+[Sample Solution](notes/assignment2_sample.pdf)

@@ -1,0 +1,175 @@
+---
+title: "Exam 2 - Practice 1- Solution"
+format: 
+  html:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+#### Problem 1-5
+
+Solution for Problem 1 to 5 are in the link below.
+
+[Solution Problem 1 to 5](https://bryantstats.github.io/math110/exams/exam2_solution1.pdf)
+
+\pagebreak
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 31250 +30q + q^3,
+$$
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+#### Solution
+
+Since it cost $C(q)$ to produce $x$ items (MP3 players), the average cost for each item is
+
+$$
+f(q) = \frac{C(q)}{q}.
+$$
+We need to find $q$ to minimize $f(q)$. Notice that 
+
+$$
+0 < q \leq 100.
+$$
+We will follow the three step procedure above, 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f(q) = \frac{31250 +30q + q^3}{q}
+$$
+Use the quotient rule, we have
+
+\begin{equation} \label{eq1}
+\begin{split}
+f'(q) & = \frac{(31250 + 30q +q^3)'\cdot q - (q)'\cdot(31250 +30q + q^3) }{q^2} \\
+\\[-1em]
+\\[-1em]
+ & = \frac{(30 + 3q^2) \cdot (q) - (1) \cdot (31250 +30q + q^3)}{q^2} \\
+ \\[-1em]
+\\[-1em]
+& = \frac{30q + 3q^3 - 31250 -30q - q^3}{q^2} \\
+\\[-1em]
+\\[-1em]
+& = \frac{2q^3 - 31250}{q^2}
+\end{split}
+\end{equation}
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+$$
+f'(q) = 0
+\Rightarrow \frac{2q^3 - 31250}{q^2} = 0
+$$
+
+Multiply both sides by  $q^2$ to eliminate the denominator:
+
+$$
+2q^3 - 31250 = 0
+$$
+
+Solve for $q$:
+
+$$
+2q^3 = 31250
+\Rightarrow q^3 = 31250/2 = 15625
+\Rightarrow q = \sqrt[3]{15625}
+\Rightarrow q = 25
+$$
+
+\textbf{Therefore, the solution is:}
+$$
+q = 25
+$$
+
+Therefore, the company should produce 25 items to minimized the average cost. 
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 13500 - p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+
+#### Solution
+
+To maximize the revenue function, we first write the revenue function. Since revenue is the product of the price for one item ($p$) and the number of items sold ($q$), we have the revenue function is
+
+\begin{equation}
+\begin{split}
+f(p) & = p \cdot q \\
+\\[-1em]
+ & = p \cdot (13500 - p^3) \\
+ \\[-1em]
+ & = 13500p - p^4
+\end{split}
+\end{equation}
+
+We need to find $p$ to maximize $f(p)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(p)$
+
+$$
+f'(p) = \big(13500p - p^4\big)' = 13500 -4p^3
+$$
+
+##### Step 2: Solve $f'(p) = 0$. 
+
+\begin{align*}
+& 13500 -4p^3 = 0 \\
+\\[-1em]
+ \implies  & 4p^3 = 13500 \\
+ \\[-1em]
+ \implies & p^3 = \frac{13500}{4} = 3375 \\
+ \\[-1em]
+ \implies & p = 15 
+\end{align*}
+
+Therefore, the company should sets the price to be 15 dollars to maximize the annual revenue. 
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 100.$$
+
+How many units should the company produce to maximize the profit?
+
+#### Solution
+
+To maximize the profit, we first need to write the profit function. Since the profit is the difference between the revenue and the cost, we have the profit function $f(q)$ is
+
+\begin{equation}
+\begin{split}
+f(q) & = \text{Revenue} - \text{Cost} \\
+\\[-1em]
+ & = q \cdot p(q) - C(q) \\
+ \\[-1em]
+ & = q \cdot (100-q) - (q^2+100) \\
+ \\[-1em]
+ & = 100q -q^2 - q^2 -100 \\
+ \\[-1em]
+ & = 100q -2q^2-100
+\end{split}
+\end{equation}
+
+We need to find $q$ to maximize $f(q)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f'(q) = \big(100q -2q^2-100 \big)' = 100-4q
+$$
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+\begin{align*}
+& 100-4q = 0 \\
+\\[-1em]
+ \implies & q = \frac{100}{4} \\
+ \\[-1em]
+ \implies & q = 25
+\end{align*}
+
+Therefore, the company should sell 25 items to maximize the profit. 
+

@@ -1,0 +1,76 @@
+---
+title: "Exam 1 - Part 1"
+format: 
+  pdf:
+    toc: true
+editor: visual
+---
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation.
+
+## Part 1: Manual calculation
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year (x) | Tuition (y) |
+|------|---------|
+| 2020 | 10         |
+| 2021 |  12.5       |
+| 2022 |  15       |
+| 2023 |  17.5     |
+| 2024 |  20       |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2010) | Tuition |
+|------|---------|
+| 0 | 10      |
+| 1 | 11.5      |
+| 2 | 13.225    |
+| 3 | 15.20875   |
+| 4 | 17.4900625  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+## Part 2: Excel Calculation
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        1       |
+| 2013 |        1.5      |
+| 2014 |        2       |
+| 2015 |        3       |
+| 2016 |        5       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+
+
+
+
+
+
+

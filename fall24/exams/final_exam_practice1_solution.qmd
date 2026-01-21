@@ -1,0 +1,353 @@
+---
+title: "Final Exam - Practice 1's Solution"
+format: 
+  html:
+    toc: false
+editor: visual
+---
+\pagenumbering{gobble}
+
+*Please show all your work for credits.  No credit for guessing. *
+
+The exam will consist of two parts: Part 1: Manual calculation and Part 2: Excel calculation. Submit your answers for Part 1 to receive the problem for Part 2. 
+
+## Part 1. Written Part. 
+
+#### Problem 1. 
+
+Given a simulated dataset below. The tuition is in thousands. 
+
+| Year (x) | Tuition in thousands  (y) |
+|------|---------|
+| 2020 | 10         |
+| 2021 |  12.5       |
+| 2022 |  15       |
+| 2023 |  17.5     |
+| 2024 |  20       |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+#### Solution
+
+1. We have the following table.  For a tuition difference, subtract the tuition of a year to the tuition of the previous year (for example: 12.5-10 = 2.5).  For a tuition ratio, divide the tuition of a year to the tuition of the previous year (for example: 12.5/10 = 1.25)
+
+| Year (since 2020) | Tuition | Tuition Difference | Tuition Ratio |
+|------|---------|--------------------|---------------|
+| 0 | 10      |                    |               |
+| 1 | 12.5    | 2.5                | 1.25         |
+| 2 | 15      | 2.5                | 1.2      |
+| 3 | 17.5    | 2.5                | 1.167      |
+| 4 | 20      | 2.5                | 1.143      |
+
+We observe that the tuition difference is a constant, hence the data is linear. 
+
+2. Let the equation be
+
+$$y = mx +b.$$
+Where $y$ and $x$ are the tuition and year, respectively. 
+
+We need to find the constant $m$ and $b$. The slope $m$ is always the different constant, so $m = 2.5$. 
+
+To find $b$, plug in a data point, say, $x = 0$ and $y = 10$, we have:
+
+$$10 = b$$
+Thus, $$b = 10.$$ 
+
+Therefore, the equation is:
+
+$$y = 2.5*x + 10.$$
+
+3. To predict the tuition in 2030, plug $x = 2030-2020 = 10$ (since 2030 is 10 years since 2020) into the equation in 2. to find $y$. 
+
+$$y =  2.5*10 + 10 = 35.$$
+
+The model predicts the tuition in 2030 to be 35k.
+
+
+4. To find the year the tuition passes 100k, plug $y = 100$ into the equation to find $x$
+
+We have $$100 = 2.5*x + 10$$
+
+Thus, $$x =  \frac{100-10}{2.5} = 36$$
+
+Therefore the tuition will pass 100k in the year of 2020 + 36 = 2056. 
+
+
+
+#### Problem 2. 
+
+Given a simulated dataset below. The tuition is in thousands.
+
+| Year (since 2010) | Tuition |
+|------|---------|
+| 0 | 10      |
+| 1 | 11.5      |
+| 2 | 13.225    |
+| 3 | 15.20875   |
+| 4 | 17.4900625  |
+
+
+1. Calculate the differences  of tuition in consecutive years and ratio of tuition for consecutive years to determine if the data is exponential or linear.
+
+2. Write the equation of the model. 
+
+3. Use the model to predict the tuition in 2030.
+
+4. What year the tuition will be more than 100k?
+
+#### Solution
+
+1. We have the following table. 
+
+| Year | Tuition | Tuition Difference | Tuition Ratio |
+|------|---------|--------------------|---------------|
+| 0 | 10      |                    |               |
+| 1 | 11.5      | 1.5                  | 1.15           |
+| 2 | 13.225    | 1.725                | 1.15           |
+| 3 | 15.20875   | 1.98375               | 1.15           |
+| 4 | 17.4900625  | 2.281313              | 1.15           |
+
+We observe that the tuition ratio is a constant, hence the data is exponential.  
+
+2. Let the equation be
+
+$$y = a.b^x$$
+Where $y$ and $x$ are the tuition and year, respectively. 
+
+We need to find the constant $a$ and $b$. The base $m$ is always the different ratio, so $b = 1.15$.
+
+To find $a$, plug in a data point, say, $x = 0$ and $y = 10$, we have:
+
+$$10 = a*1.15^{0}$$
+Thus, $$a = 10$$ 
+
+Therefore, the equation is:
+
+$$y = 10*1.15^x$$
+
+3. To predict the tuition in 2030, plug $x = 2030-2010 = 20$ into the equation in 2. to find $y$. 
+
+$$y =  10*1.15^{20} = 163.6654$$
+
+The model predicts the tuition in 2030 to be 163.6654
+
+
+4. To find the year the tuition passes 100k, plug $y = 100$ into the equation to find $x$
+
+We have $$100 = 10*1.15^x$$
+
+Thus, $1.15^ x =  100/10 = 10$.
+
+$$x = \log_{1.15}10 = 16.47505 \approx 17$$
+
+Therefore the tuition will pass 100k in 17 years since 2010, which is 2027. 
+
+Solution for Problem 1 to 5 are in the link below.
+
+#### Problem 3-5. 
+
+[Solution Problem 3 to 5](final_exam_solution_3_5.pdf)
+
+#### Problem 6
+
+(Minimizing Average Cost) The per-day cost function of the manufacture of portable MP3 players is given by
+
+$$
+C(q) = 6000 +50q + 3q^3,
+$$
+where $q$ is the number of MP3 players manufactured per day. Assume that the company cannot manufacture more than 100 MP3 players per day.  How many MP3 players should be manufactured in order to minimize the average cost? 
+
+
+#### Solution
+
+Since it cost $C(q)$ to produce $x$ items (MP3 players), the average cost for each item is
+
+$$
+f(q) = \frac{C(q)}{q}.
+$$
+We need to find $q$ to minimize $f(q)$. Notice that 
+
+$$
+0 < q \leq 100.
+$$
+We will follow the three step procedure above, 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f(q) = \frac{6000 +50q + 3q^3}{q}
+$$
+Use the quotient rule, we have
+
+\begin{equation} \label{eq1}
+\begin{split}
+f'(q) & = \frac{(6000 +50q + 3q^3)'\cdot q - (q)'\cdot(6000 +50q + 3q^3) }{q^2} \\
+\\[-1em]
+\\[-1em]
+ & = \frac{(50 + 9q^2) \cdot (q) - (1) \cdot (6000 +50q + 3q^3)}{q^2} \\
+ \\[-1em]
+\\[-1em]
+& = \frac{50q + 9q^3 - 6000 - 50q - 3q^3}{q^2} \\
+\\[-1em]
+\\[-1em]
+& = \frac{6q^3 - 6000}{q^2}
+\end{split}
+\end{equation}
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+$$
+f'(q) = 0
+\Rightarrow \frac{6q^3 - 6000}{q^2} = 0
+$$
+
+Multiply both sides by  $q^2$ to eliminate the denominator:
+
+$$
+6q^3 - 6000 = 0
+$$
+
+Solve for $q$:
+
+$$
+6q^3 = 6000
+\Rightarrow q^3 = 6000/6 = 1000
+\Rightarrow q = \sqrt[3]{1000}
+\Rightarrow q = 10
+$$
+
+\textbf{Therefore, the solution is:}
+$$
+q = 10
+$$
+
+Therefore, the company should produce 10 items to minimized the average cost. 
+
+
+#### Problem 7
+
+(Maximizing Revenue) A company estimates that if it sets the price of an item at $p$ dollars, then it can sells $$q = 27000 - 2p^3$$ items per year.  The condition for $p$ is that $0 \leq p \leq 20$. Find the price, $p$, that maximizes the annual revenue. 
+
+#### Solution
+
+To maximize the revenue function, we first write the revenue function. Since revenue is the product of the price for one item ($p$) and the number of items sold ($q$), we have the revenue function is
+
+\begin{equation}
+\begin{split}
+f(p) & = p \cdot q \\
+\\[-1em]
+ & = p \cdot (27000 - 2p^3) \\
+ \\[-1em]
+ & = 27000p - 2p^4
+\end{split}
+\end{equation}
+
+We need to find $p$ to maximize $f(p)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(p)$
+
+$$
+f'(p) = \big(27000p - 2p^4\big)' = 27000 -8p^3
+$$
+
+##### Step 2: Solve $f'(p) = 0$. 
+
+\begin{align*}
+& 27000 -8p^3 = 0 \\
+\\[-1em]
+ \implies  & 8p^3 = 27000 \\
+ \\[-1em]
+ \implies & p^3 = \frac{27000}{8} = 3375 \\
+ \\[-1em]
+ \implies & p = 15 
+\end{align*}
+
+Therefore, the company should sets the price to be 15 dollars to maximize the annual revenue. 
+
+#### Problem 8
+
+(Maximizing Profit) A company determines that when $q$ units of a product are produced each month, they will be sold at the price of $$p = 100-3q$$ dollars per unit. The total cost of producing the $q$ units will be $$C(q) = q^2 + 20q + 100.$$
+
+How many units should the company produce to maximize the profit?
+
+#### Solution
+
+To maximize the profit, we first need to write the profit function. Since the profit is the difference between the revenue and the cost, we have the profit function $f(q)$ is
+
+\begin{equation}
+\begin{split}
+f(q) & = \text{Revenue} - \text{Cost} \\
+\\[-1em]
+ & = q \cdot p(q) - C(q) \\
+ \\[-1em]
+ & = q \cdot (100-3q) - (q^2+20q + 100) \\
+ \\[-1em]
+ & = 100q -3q^2 - q^2 -20q -100 \\
+ \\[-1em]
+ & = 80q -4q^2-100
+\end{split}
+\end{equation}
+
+We need to find $q$ to maximize $f(q)$. We will follow the procedure above. 
+
+##### Step 1: Find and simplify $f'(q)$
+
+$$
+f'(q) = \big(80q -4q^2-100 \big)' = 80-8q
+$$
+
+##### Step 2: Solve $f'(q) = 0$. 
+
+\begin{align*}
+& 80-8q = 0 \\
+\\[-1em]
+ \implies & q = \frac{80}{8} \\
+ \\[-1em]
+ \implies & q = 10
+\end{align*}
+
+Therefore, the company should sell 8 items to maximize the profit. 
+
+## Part 2. Excel Part. 
+
+#### Problem 1
+
+| Year | Population (000s) |
+|:----:|:-----------------:|
+| 2012 |        1        |
+| 2013 |        1.5       |
+| 2014 |        2       |
+| 2015 |        3       |
+| 2016 |        5       |
+
+1. Model the dataset using exponential model and calculate the MAPE of the model. 
+2. Model the dataset using linear model and calculate the MAPE of the model. 
+3. Compare the models in term of MAPE to decide the better model. Use the better model to predict the population in 2017. 
+
+
+[Video Solution](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88797aa3-2092-4a85-8151-b2a4015eb9d3)
+
+[Excel Solution](practice2_excel.xlsx)
+
+#### Problem 2
+
+A workshop produces desks and chairs.					
+Profit per desk = $10.					
+Profit per chair = $14.					
+One desk requires 2 hours of carpentry and 1 hours of painting.					
+One chair requires 1 hours of carpentry and 3 hour of painting.					
+Maximum carpentry hours = 10 hours.					
+Maximum painting hours = 15 hours.			
+
+[Video Solution](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f48092f-9fce-40df-b1d2-b2ce013e2e3a)
+
+[Excel Solution](final_exam_excel2_solution.xlsx)
+
+---
