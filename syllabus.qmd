@@ -35,9 +35,9 @@ B. Mathematical Focus
 
 MATH 110 is an applied mathematics course that presents a mathematical way of thinking and provides students with experiential opportunities to explore how to quantitatively analyze complex problems. Four general areas are covered: a review of mathematical functions and their applications; the mathematics of finance; creation, use, and interpretation of models involving real-world data; and linear programming and optimization. Applications are relevant for sustainability issues, business and management, economics and finance, and the social and natural sciences.
 
-## Textbook
+## Textbook and Learning Materials
 
--   No text books required
+-   There is no required textbook for this course. All necessary learning materials and lecture notes will be provided directly on Canvas.
 
 ## Course Objectives
 
@@ -49,7 +49,7 @@ After successfully completing this course, each student will
 -   implement linear programming technique in solving optimization problems
 -   compute the derivatives of basic mathematics functions and apply the derivatives to solve optimization problems
 
-## Grades
+## Grades Distribution
 
 ```{r}
 # install.packages("ggplot2")
@@ -76,7 +76,7 @@ ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
 
 -  *Assignments*: In-class assignments are tentatively scheduled to be completed during our sessions, providing an opportunity for real-time guidance and Q&A. These may be supplemented by occasional take-home assignments to reinforce independent learning.
 
--  *Attendance*: Students who miss no more than one class session will receive the full 5% attendance credit.
+-  *Attendance*: Regular attendance is essential for success in this course, as it ensures you keep up with the material and receive credit for in-class assignments. Attendance will be recorded at every session. Students with no more than one absence will receive the full 5% attendance credit. If you have a university-excused absence, please notify me in advance so it does not impact your attendance grade. 
 
 ## Grades Scale
 
