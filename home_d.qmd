@@ -1,0 +1,20 @@
+---
+title: "MATH 110D. Mathematical Analysis"
+format: 
+  html:
+    toc: true
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+[Syllabus](../syllabus.html)
+
+| Date | Section/Topic | Lecture | 
+|------------------|------------------|------------------|
+| **Week 1** |  |  |  |
+| 1/22 | Linear Functions | [Note](notes/) | 
+
+: {.striped .hover}

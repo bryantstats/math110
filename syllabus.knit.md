@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 ## Office hours
 
@@ -51,32 +50,19 @@ After successfully completing this course, each student will
 
 ## Grades
 
-```{r}
-# install.packages("ggplot2")
-library(ggplot2)
-library(dplyr)
-# Variables
 
-Percentage = c(.05, .1,.6, .25)
-Grades = c('Attendance', 'Assignments','Midterm - Exams', 'Final - Exams')
+::: {.cell}
+::: {.cell-output-display}
+![](syllabus_files/figure-html/unnamed-chunk-1-1.png){width=672}
+:::
+:::
 
-df = data.frame(Grades = Grades, Percentage = Percentage, labels = paste0(Percentage*100, "%"))
-
-ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
-  geom_col() +
-  geom_label(aes(label = labels),
-             position = position_stack(vjust = 0.5),
-             show.legend = FALSE) +
-  labs(x='')+
-  coord_polar(theta = "y")+
-  theme_void()
-```
 
 -  *Exams*: The course includes five exams: four midterms and a final. During midterm weeks, the 2.5-hour session will be split: the first half will be dedicated to a review, followed by the exam in the second half
 
 -  *Assignments*: In-class assignments are tentatively scheduled to be completed during our sessions, providing an opportunity for real-time guidance and Q&A. These may be supplemented by occasional take-home assignments to reinforce independent learning.
 
--  *Attendance*: Students who miss no more than one class session will receive the full 5% attendance credit.
+-  *Attendance*: Missing no more than 1 classes will guarantee you the 5% of the grades for attendance.
 
 ## Grades Scale
 
@@ -91,25 +77,13 @@ The numerical grades are converted to letter grades as follows.
 | B-  | 79.45 - 82.44% | F   | Below 59.44%   |
 | C+  | 76.45 - 79.44% |     |                |
 
-```{r}
-library(ggplot2)
-library(forcats)
 
-# Basic barplot
+::: {.cell}
+::: {.cell-output-display}
+![](syllabus_files/figure-html/unnamed-chunk-2-1.png){width=672}
+:::
+:::
 
-Grades           = c("A","A-","B+","B","B-","C+","C","C-","D+","D", "F")
-Total_Percentage = c(92.45, 89.45, 86.45, 82.45 ,79.45, 76.45, 72.45, 69.45, 66.45, 59.45, 0)
-df = data.frame(Grades = Grades, Total_Percentage = Total_Percentage)
-
-
-p<-ggplot(data=df, aes(x= fct_rev(fct_reorder(Grades, Total_Percentage)), y=Total_Percentage)) +
-  geom_col(fill="steelblue")+
-  labs(y = 'Total Percentage', x ='Letter Grade')+
-  geom_text(aes(label = Total_Percentage), vjust = -0.5)+
-  theme_minimal()
-p
-
-```
 
 
 
@@ -145,3 +119,4 @@ Cheating will result in an F as your final grade and may result in your expulsio
 ## Regarding Diversity
 
 In this course, and all your courses at Bryant, and throughout the Bryant learning community, we value and respect diversity. This includes differences in race, ethnicity, nationality, gender, gender identity, sexuality, socioeconomic status, ability, and religion.
+
