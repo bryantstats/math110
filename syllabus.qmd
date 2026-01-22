@@ -72,11 +72,11 @@ ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
   theme_void()
 ```
 
--  *Exams*: The course includes five exams: four midterms and a final. During midterm weeks, the 2.5-hour session will be split: the first half will be dedicated to a review, followed by the exam in the second half
+-   *Exams*: The course includes five exams: four midterms and a final. During midterm weeks, the 2.5-hour session will be split: the first half will be dedicated to a review, followed by the exam in the second half
 
--  *Assignments*: In-class assignments are tentatively scheduled to be completed during our sessions, providing an opportunity for real-time guidance and Q&A. These may be supplemented by occasional take-home assignments to reinforce independent learning.
+-   *Assignments*: In-class assignments are tentatively scheduled to be completed during our sessions, providing an opportunity for real-time guidance and Q&A. These may be supplemented by occasional take-home assignments to reinforce independent learning.
 
--  *Attendance*: Regular attendance is essential for success in this course, as it ensures you keep up with the material and receive credit for in-class assignments. Attendance will be recorded at every session. Students with no more than one absence will receive the full 5% attendance credit. If you have a university-excused absence, please notify me in advance so it does not impact your attendance grade. 
+-   *Attendance*: Regular attendance is essential for success in this course, as it ensures you keep up with the material and receive credit for in-class assignments. Attendance will be recorded at every session. Students with no more than one absence will receive the full 5% attendance credit. If you have a university-excused absence, please notify me in advance so it does not impact your attendance grade.
 
 ## Grades Scale
 
@@ -111,11 +111,9 @@ p
 
 ```
 
-
-
 ## Tentative Topics
 
--   Linear Functions and Applications 
+-   Linear Functions and Applications
 
 -   Quadratic Functions and Applications
 
@@ -124,7 +122,6 @@ p
 -   Derivatives and Applications
 
 -   Linear Programming and Applications
-
 
 ## Sustainable Development Goals
 

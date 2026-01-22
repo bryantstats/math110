@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [Syllabus](syllabus.html)
 
@@ -17,3 +16,4 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | **Week 1** |  |  |  |
 | 1/22       | Linear Functions | [Note](notes_j/Linear/Linear_Functions.pdf) |
 : {.striped .hover}
+
