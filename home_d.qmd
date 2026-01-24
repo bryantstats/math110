@@ -12,11 +12,22 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 [Syllabus](syllabus.html)
 
-| Date | Section/Topic | Lecture | 
-|------------------|------------------|------------------|
-| **Week 1** |  |  |  |
-| 1/22       | Linear Functions | [Note](notes_d/Linear/Linear_Functions.pdf) |
-| **Week 2** |  |  |  |
-| 1/29       | Applications of Linear Functions | [Note](notes_d/Linear/.pdf) |
-
+| Week | Date | Section/Topic | Lecture |
+|:------------------:|:----------------|:----------------|:----------------|
+| 1 | 1/21 | Linear Functions | [Note](notes_d/Linear/Linear_Functions.pdf) |
+| 2 | 1/28 | Applications of Linear Functions | [Note](notes_d/Linear/.pdf) |
+| 3 | 2/4 | Review for Exam 1 <br> <u>**Exam 1**</u> | |
+| 4 | 2/11 | Quadratic Functions | |
+| 5 | 2/18 | Applications of Quadratic Functions | |
+| 6 | 2/25 | Review for Exam 2 <br> <u>**Exam 2**</u> | |
+| 7 | 3/4 | Exponential Functions | |
+| 8 | 3/11 | Applications of Exponential Functions | |
+| 9 | 3/18 | **Spring Break** | |
+| 10 | 3/25 | <u>**Exam 3**</u> (Take Home Exam) <br> Derivatives  | |
+| 11 | 4/1 | Applications of Derivatives | |
+| 12 | 4/8 | **Reday - No Classes** | |
+| 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | |
+| 14 | 4/22 | Linear Programming and Applications | |
+| 15 | 4/29 | LP Applications and Review for Final | |
+| 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am) |  |
 : {.striped .hover}
