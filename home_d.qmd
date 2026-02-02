@@ -30,5 +30,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | |
 | 14 | 4/22 | Linear Programming and Applications | |
 | 15 | 4/29 | LP Applications and Review for Final | |
-| 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am) |  |
+| 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am)  |  |
 : {.striped .hover}
