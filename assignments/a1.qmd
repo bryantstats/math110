@@ -1,0 +1,27 @@
+---
+title: "Assignment 1: Linear Models"
+format: html
+editor: visual
+---
+
+---
+
+Please use the attached Excel sheet to complete your work, using the sample solution video as a guide.  The required data and questions are on the specific sheet within the Excel workbook. 
+
+Assignment File: [Excel File](a1.xlsx)
+
+Guided Tutorial: [Sample Solution Video](https://bryant.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4446f7c-f38d-4da0-ac8f-b3ed0118a380)
+
+---
+
+**Submission Requirements**
+
+1\. Your solution should follow the structure of the provided example.
+
+2\. Submit in Excel format only. PDF, JPG, and other file types are not permitted.
+
+3\. Your file MUST include formulas. Submissions without active formulas will not be graded.
+
+4\. Upload your completed Excel workbook directly to Canvas.
+
+---
