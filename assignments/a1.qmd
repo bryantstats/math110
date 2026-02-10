@@ -6,7 +6,7 @@ editor: visual
 
 ---
 
-Please use the attached Excel sheet to complete your work, using the sample solution video as a guide.  The required data and questions are on the specific sheet within the Excel workbook. 
+Please use the attached Excel sheet to complete your work, using the sample solution video as a guide.  The required data and questions are on the specific sheet within the Excel file. 
 
 Assignment File: [Excel File](a1.xlsx)
 
