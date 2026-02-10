@@ -1,34 +1,33 @@
 ---
-title: "MATH 110D. Mathematical Analysis"
+title: "MATH 110J. Mathematical Analysis"
 format: 
   html:
     toc: true
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [**Office hours today (10/2) is 11:30 AM-1:30 PM.**]{.underline}
 
 | Week | Date | Section/Topic | Lecture |
-|:------------------:|:----------------|:----------------|:----------------|
-| 1 | 1/21 | Linear Functions | [Note](notes_d/Linear/Linear_Functions.pdf) |
-| 2 | 1/28 | Applications of Linear Functions | [Pre - Notes](notes_d/Linear/Applications of Linear Functions.pdf),  [Notes](notes_d/Linear/post_applications.pdf) |
+| :---: | :--- | :--- | :--- |
+| 1 | 1/21 | Linear Functions | [Note](notes_j/Linear/Linear_Functions.pdf) |
+| 2 | 1/28 | Applications of Linear Functions | [Pre - Notes, ](notes_d/Linear/Applications of Linear Functions.pdf)  [   Notes](notes_j/Linear/post_applications.pdf) |
 | 3 | 2/4 | Review for Exam 1  | [Practice 1](exams/exam1_practice1.pdf), [Solution](exams/exam1_practice1_sol.pdf) <br> [Practice 2](exams/exam1_practice2.pdf), [Solution](exams/exam1_practice2_sol.pdf) |
 | 3 | 2/4 |  <u>**Exam 1**</u> |  |
 | 4 | 2/11 | Quadratic Functions | |
 | 5 | 2/18 | Applications of Quadratic Functions | |
-| 6 | 2/25 | Review for Exam 2 <br> <u>**Exam 2**</u> | |
+| 6 | 2/25 | Review for Exam 2 <br><u>**Exam 2**</u> | |
 | 7 | 3/4 | Exponential Functions | |
 | 8 | 3/11 | Applications of Exponential Functions | |
 | 9 | 3/18 | **Spring Break** | |
-| 10 | 3/25 | <u>**Exam 3**</u> (Take Home Exam) <br> Derivatives  | |
-| 11 | 4/1 | Applications of Derivatives | |
-| 12 | 4/8 | **Reday - No Classes** | |
+| 10 | 3/25 | Review for Exam 3 <br> <u>**Exam 3**</u> | |
+| 11 | 4/1 | Derivatives | |
+| 12 | 4/8 | Applications of Derivatives | |
 | 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | |
 | 14 | 4/22 | Linear Programming and Applications | |
 | 15 | 4/29 | LP Applications and Review for Final | |
-| 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am)  |  |
+| 16 | 5/6 | <u>**Final Exam**</u> (6:15 pm to 8:45 pm) | |
 : {.striped .hover}
