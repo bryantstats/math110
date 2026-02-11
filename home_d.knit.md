@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 | Week | Date | Section/Topic | Lecture | Assignments |
 |:---:|:---|:---|:---|:---|
@@ -31,4 +30,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am)  |  | |
 
 : {.striped .hover}
+
 
