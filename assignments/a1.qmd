@@ -16,7 +16,7 @@ Guided Tutorial: [Sample Solution Video](https://bryant.hosted.panopto.com/Panop
 
 **Submission Requirements**
 
-1\. Your solution should follow the structure of the provided example.
+1\. Your solution should follow the structure of the provided video solution.
 
 2\. Submit in Excel format only. PDF, JPG, and other file types are not permitted.
 
