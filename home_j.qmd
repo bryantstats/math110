@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 1 | 1/21 | Linear Functions | [Note](notes_j/Linear/Linear_Functions.pdf) | |
 | 2 | 1/28 | Applications of Linear Functions | [Pre - Notes](notes_j/Linear/Applications of Linear Functions.pdf),  [Notes](notes_j/Linear/post_applications.pdf) | |
 | 3 | 2/4 | Review for Exam 1  | [Practice 1](exams/exam1_practice1.pdf), [Solution](exams/exam1_practice1_sol.pdf) <br> [Practice 2](exams/exam1_practice2.pdf), [Solution](exams/exam1_practice2_sol.pdf) | |
-| 3 | 2/4 |  <u>**Exam 1**</u> | [Solution](exams/exam1_sol.pdf) | |
+| 3 | 2/4 |  <u>**Exam 1**</u> | [Exam 1's Solution](exams/exam1_sol.pdf) | |
 | 4 | 2/11 | Quadratic Functions | | [Assignment 1](assignments/a1.html) |
 | 5 | 2/18 | Applications of Quadratic Functions | | |
 | 6 | 2/25 | Review for Exam 2 <br> <u>**Exam 2**</u> | | |
