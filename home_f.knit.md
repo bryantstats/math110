@@ -1,5 +1,5 @@
 ---
-title: "MATH 110J. Mathematical Analysis"
+title: "MATH 110F. Mathematical Analysis"
 format: 
   html:
     toc: true
@@ -9,14 +9,13 @@ editor: visual
 
 
 
-
 | Week | Date | Section/Topic | Lecture | Assignments |
 |:---:|:---|:---|:---|:---|
-| 1 | 1/21 | Linear Functions | [Note](notes_j/Linear/Linear_Functions.pdf) | |
-| 2 | 1/28 | Applications of Linear Functions | [Pre - Notes](notes_j/Linear/Applications of Linear Functions.pdf),  [Notes](notes_j/Linear/post_applications.pdf) | |
+| 1 | 1/21 | Linear Functions | [Note](notes_f/Linear/Linear_Functions.pdf) | |
+| 2 | 1/28 | Applications of Linear Functions | [Pre - Notes](notes_f/Linear/Applications of Linear Functions.pdf),  [Notes](notes_f/Linear/post_applications.pdf) | |
 | 3 | 2/4 | Review for Exam 1  | [Practice 1](exams/exam1_practice1.pdf), [Solution](exams/exam1_practice1_sol.pdf) <br> [Practice 2](exams/exam1_practice2.pdf), [Solution](exams/exam1_practice2_sol.pdf) | |
-| 3 | 2/4 |  <u>**Exam 1**</u> | [Exam 1's Solution](exams/exam1_sol.pdf) | |
-| 4 | 2/11 | Quadratic Functions | | [Assignment 1](assignments/a1.html) |
+| 3 | 2/4 |  <u>**Exam 1**</u> | [Exam 1's Solution](exams/exam1_sol.pdf)  | |
+| 4 | 2/11 | Quadratic Functions | [Note](notes_d/Quadratic/Solving_Graphing.pdf) | [Assignment 1](assignments/a1.html) |
 | 5 | 2/18 | Applications of Quadratic Functions | | |
 | 6 | 2/25 | Review for Exam 2 <br> <u>**Exam 2**</u> | | |
 | 7 | 3/4 | Exponential Functions | | |
@@ -28,5 +27,6 @@ editor: visual
 | 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | | |
 | 14 | 4/22 | Linear Programming and Applications | | |
 | 15 | 4/29 | LP Applications and Review for Final | | |
-| 16 | 5/6 | <u>**Final Exam**</u> (6:15 pm to 8:45 pm) | | |
+| 16 | 5/6 | <u>**Final Exam**</u> (12:00 pm to 2:30 pm) | | |
 : {.striped .hover}
+
