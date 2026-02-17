@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 ## Office hours
 
+[Office Hours](office_hours.html)
+
 Office hours is from 2-4:30pm on Tuesday and Thursday at Suite F, Room 2409 or on Zoom (ID: 4419675207). If these time slots do not work, please feel free to schedule another time with me.
 
 ## Course Description

@@ -6,9 +6,8 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
 
 [Office Hours](office_hours.html)
 
@@ -32,4 +31,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 15 | 4/29 | LP Applications and Review for Final | | |
 | 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am)  |  | |
 : {.striped .hover}
+
 
