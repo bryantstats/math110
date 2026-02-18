@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 3 | 2/4 | Review for Exam 1  | [Practice 1](exams/exam1_practice1.pdf), [Solution](exams/exam1_practice1_sol.pdf) <br> [Practice 2](exams/exam1_practice2.pdf), [Solution](exams/exam1_practice2_sol.pdf) | |
 | 3 | 2/4 |  <u>**Exam 1**</u> | [Exam 1's Solution](exams/exam1_sol.pdf)  | |
 | 4 | 2/11 | Quadratic Functions | [Note](notes_f/Quadratic/Solving_Graphing.pdf) | [Assignment 1](assignments/a1.html) |
-| 5 | 2/18 | Applications of Quadratic Functions | | |
+| 5 | 2/18 | Applications of Quadratic Functions | [Pre - Notes](notes_d/Quadratic/QuadraticsApplications.pdf) | |
 | 6 | 2/25 | Review for Exam 2 <br> <u>**Exam 2**</u> | | |
 | 7 | 3/4 | Exponential Functions | | |
 | 8 | 3/11 | Applications of Exponential Functions | | |
