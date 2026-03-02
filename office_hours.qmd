@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
 
-Tuesday: 10 AM-2:30 PM 
+Tuesday: 2-4:30PM 
 
 Zoom: [Link](https://bryant.zoom.us/j/4419675207)
 
