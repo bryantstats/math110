@@ -25,7 +25,8 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 7 | 3/4 |  <u>**Exam 2**</u> | [Solution](exams/exam2_solution.pdf) | |
 | 8 | 3/11 | Applications of Exponential Functions | [Notes 1](notes_j//Exponential/ExponentialApplications1.pdf), [Notes 2](notes_j/Exponential/ExponentialApplications2.pdf) | |
 | 9 | 3/18 | **Spring Break** | | |
-| 10 | 3/25 | Review for Exam 3 <br> <u>**Exam 3**</u>   | | |
+| 10 | 3/25 | Review for Exam 3  | [Practice 1](exams/exam3_practice1.pdf), [Solution](exams/exam3_practice1_sol.pdf) <br> [Practice 2](exams/exam3_practice2.pdf), [Solution](exams/exam3_practice2_sol.pdf) | |
+| 10 | 3/25 |  <u>**Exam 3**</u>   | | |
 | 11 | 4/1 | Derivatives | | |
 | 12 | 4/8 | Applications of Derivatives | | |
 | 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | | |
