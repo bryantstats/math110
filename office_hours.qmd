@@ -12,7 +12,6 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 Office: F2409 Unistructure
 
-Tuesday: 2-4:30PM 
+Tuesday: 11:30-1:30PM
 
 Zoom: [Link](https://bryant.zoom.us/j/4419675207)
-
