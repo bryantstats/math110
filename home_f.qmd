@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 10 | 3/25 | Derivatives  |  [Notes](notes_f/Derivatives/Doc2.pdf)| |
 | 11 | 4/1 | Applications of Derivatives | [Notes](notes_f/Derivatives/ApplicationsofDerivatives.pdf) | |
 | 12 | 4/8 | **Reday - No Classes** | | |
-| 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | | |
+| 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | [Practice 1](exams/exam4_practice1.pdf), [Solution](exams/exam2_practice1_sol.pdf) <br> [Practice 2](exams/exam4_practice2.pdf), [Solution](exams/exam4_practice2_sol.pdf)<br> [Practice 3](exams/exam4_practice3.pdf), [Solution](exams/exam4_practice3_sol.pdf) | |
 | 14 | 4/22 | Linear Programming and Applications | | |
 | 15 | 4/29 | LP Applications and Review for Final | | |
 | 16 | 5/6 | <u>**Final Exam**</u> (12:00 pm to 2:30 pm) | | |
