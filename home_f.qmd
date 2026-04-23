@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 12 | 4/8 | **Reday - No Classes** | | |
 | 13 | 4/15 | Review for Exam 4 <br> <u>**Exam 4**</u> | [Practice 1](exams/exam4_practice1.pdf), [Solution](exams/exam4_practice1_sol.pdf) <br> [Practice 2](exams/exam4_practice2.pdf), [Solution](exams/exam4_practice2_sol.pdf)<br> [Practice 3](exams/exam4_practice3.pdf), [Solution](exams/exam4_practice3_sol.pdf) | |
 | 13 | 3/4 |  <u>**Exam 4**</u> | [Solution](exams/exam4_sol.pdf) | |
-| 14 | 4/22 | Linear Programming and Applications | [Notes](notes_f/LP/notes.docx) | |
+| 14 | 4/22 | Linear Programming and Applications | [Notes](notes_f/LP/LP2.pdf) | |
 | 15 | 4/29 | LP Applications and Review for Final | | |
 | 16 | 5/6 | <u>**Final Exam**</u> (12:00 pm to 2:30 pm) | | |
 : {.striped .hover}
