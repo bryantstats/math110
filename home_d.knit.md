@@ -6,9 +6,7 @@ format:
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+
 
 [Office Hours Update](office_hours.html)
 
@@ -35,4 +33,5 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 | 15 | 4/29 | LP Applications and Review for Final | | |
 | 16 | 5/6 | <u>**Final Exam**</u> (8:30 am - 11:00 am)  | [Practice 1](exams/exam5_practice1.pdf), [Solution](exams/exam5_practice1_sol.pdf) <br> [Practice 2](exams/exam5_practice2.pdf), [Solution](exams/exam5_practice2_sol.pdf)<br> [Practice 3](exams/exam5_practice3.pdf), [Solution](exams/exam5_practice3_sol.pdf) | |
 : {.striped .hover}
+
 
